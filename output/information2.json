@@ -1,0 +1,3222 @@
+[
+  {
+    "className": "com.utils.R",
+    "securityMethods": [
+      "error",
+      "put"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.utils.PageUtils",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.utils.JQPageInfo",
+    "securityMethods": [
+      "setSidx"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "sidx",
+        "unsafe": false
+      }
+    ],
+    "fieldUsages": {
+      "sidx": [
+        {
+          "methodName": "setSidx",
+          "lineNumber": 35,
+          "isWrite": true
+        },
+        {
+          "methodName": "getSidx",
+          "lineNumber": 31,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.YonghuVO",
+    "securityMethods": [
+      "setLianxidianhua"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "lianxidianhua",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "lianxidianhua": [
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 138,
+          "isWrite": false
+        },
+        {
+          "methodName": "setLianxidianhua",
+          "lineNumber": 131,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.YonghuModel",
+    "securityMethods": [
+      "setLianxidianhua"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "lianxidianhua",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "lianxidianhua": [
+        {
+          "methodName": "setLianxidianhua",
+          "lineNumber": 132,
+          "isWrite": true
+        },
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 139,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.utils.Query",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.view.AddressView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.ConfigEntity",
+    "securityMethods": [
+      "setName",
+      "setId"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "name",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 38,
+          "isWrite": false
+        },
+        {
+          "methodName": "setName",
+          "lineNumber": 42,
+          "isWrite": true
+        }
+      ],
+      "id": [
+        {
+          "methodName": "setId",
+          "lineNumber": 34,
+          "isWrite": true
+        },
+        {
+          "methodName": "getId",
+          "lineNumber": 30,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.utils.SQLFilter",
+    "securityMethods": [
+      "sqlInject"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "keywords",
+        "methodName": "sqlInject",
+        "lineNumber": 31,
+        "unsafe": true
+      },
+      {
+        "variableName": "keyword",
+        "methodName": "sqlInject",
+        "lineNumber": 34,
+        "unsafe": false
+      }
+    ]
+  },
+  {
+    "className": "com.entity.UserEntity",
+    "securityMethods": [
+      "setPassword",
+      "setUsername",
+      "setRole",
+      "getRole",
+      "setId"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "password",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "username",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "password": [
+        {
+          "methodName": "setPassword",
+          "lineNumber": 50,
+          "isWrite": true
+        },
+        {
+          "methodName": "getPassword",
+          "lineNumber": 46,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "setId",
+          "lineNumber": 74,
+          "isWrite": true
+        },
+        {
+          "methodName": "getId",
+          "lineNumber": 70,
+          "isWrite": false
+        }
+      ],
+      "username": [
+        {
+          "methodName": "setUsername",
+          "lineNumber": 42,
+          "isWrite": true
+        },
+        {
+          "methodName": "getUsername",
+          "lineNumber": 38,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.ShangpinxinxiModel",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.utils.ValidatorUtils",
+    "securityMethods": [
+      "validateEntity"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "validator",
+        "unsafe": false
+      }
+    ],
+    "fieldUsages": {
+      "validator": [
+        {
+          "methodName": "static_block",
+          "lineNumber": 20,
+          "isWrite": true
+        },
+        {
+          "methodName": "validateEntity",
+          "lineNumber": 31,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.view.DiscussshangpinxinxiView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.view.NewsView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.view.CartView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.view.ChatView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.model.NewsModel",
+    "securityMethods": [
+      "setPicture"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 73,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 66,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.utils.BaiduUtil",
+    "securityMethods": [
+      "getAuth",
+      "getCityByLonLat"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "location",
+        "methodName": "getCityByLonLat",
+        "lineNumber": 28,
+        "unsafe": true
+      },
+      {
+        "variableName": "authHost",
+        "methodName": "getAuth",
+        "lineNumber": 55,
+        "unsafe": true
+      },
+      {
+        "variableName": "getAccessTokenUrl",
+        "methodName": "getAuth",
+        "lineNumber": 56,
+        "unsafe": true
+      },
+      {
+        "variableName": "key",
+        "methodName": "getAuth",
+        "lineNumber": 72,
+        "unsafe": false
+      },
+      {
+        "variableName": "access_token",
+        "methodName": "getAuth",
+        "lineNumber": 87,
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.model.StoreupModel",
+    "securityMethods": [
+      "setName",
+      "setTablename",
+      "setPicture",
+      "setRefid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "tablename",
+        "unsafe": false
+      },
+      {
+        "name": "refid",
+        "unsafe": false
+      },
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      },
+      {
+        "name": "name",
+        "unsafe": false
+      }
+    ],
+    "fieldUsages": {
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 95,
+          "isWrite": false
+        },
+        {
+          "methodName": "setName",
+          "lineNumber": 88,
+          "isWrite": true
+        }
+      ],
+      "refid": [
+        {
+          "methodName": "getRefid",
+          "lineNumber": 63,
+          "isWrite": false
+        },
+        {
+          "methodName": "setRefid",
+          "lineNumber": 56,
+          "isWrite": true
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 79,
+          "isWrite": false
+        },
+        {
+          "methodName": "setTablename",
+          "lineNumber": 72,
+          "isWrite": true
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 111,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 104,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.ShangpinpingjiaEntity",
+    "securityMethods": [
+      "setLianxidianhua",
+      "setYonghuming",
+      "setId"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "yonghuming",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      },
+      {
+        "name": "lianxidianhua",
+        "unsafe": false
+      }
+    ],
+    "fieldUsages": {
+      "yonghuming": [
+        {
+          "methodName": "getYonghuming",
+          "lineNumber": 253,
+          "isWrite": false
+        }
+      ],
+      "lianxidianhua": [
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 265,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 141,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.DiscussshangpinxinxiEntity",
+    "securityMethods": [
+      "setId",
+      "setRefid",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "refid",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 91,
+          "isWrite": false
+        }
+      ],
+      "refid": [
+        {
+          "methodName": "getRefid",
+          "lineNumber": 107,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 119,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.interceptor.AuthorizationInterceptor",
+    "sensitiveFields": [
+      {
+        "name": "tokenService",
+        "unsafe": false
+      },
+      {
+        "name": "LOGIN_TOKEN_KEY",
+        "unsafe": true
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "token",
+        "methodName": "preHandle",
+        "lineNumber": 59,
+        "unsafe": true
+      },
+      {
+        "variableName": "tokenEntity",
+        "methodName": "preHandle",
+        "lineNumber": 68,
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "tokenService": [
+        {
+          "methodName": "preHandle",
+          "lineNumber": 70,
+          "isWrite": false
+        }
+      ],
+      "LOGIN_TOKEN_KEY": [
+        {
+          "methodName": "preHandle",
+          "lineNumber": 59,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.EIException",
+    "securityMethods": [
+      "setCode"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "code",
+        "unsafe": true
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "code": [
+        {
+          "methodName": "getCode",
+          "lineNumber": 44,
+          "isWrite": false
+        },
+        {
+          "methodName": "static_block",
+          "lineNumber": 26,
+          "isWrite": true
+        },
+        {
+          "methodName": "static_block",
+          "lineNumber": 32,
+          "isWrite": true
+        },
+        {
+          "methodName": "setCode",
+          "lineNumber": 48,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.ShangpinxinxiEntity",
+    "securityMethods": [
+      "setId"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 123,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.service.impl.TokenServiceImpl",
+    "securityMethods": [
+      "generateToken",
+      "getTokenEntity",
+      "queryPage"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "tokenEntity",
+        "methodName": "getTokenEntity",
+        "lineNumber": 73,
+        "unsafe": true
+      },
+      {
+        "variableName": "tokenEntity",
+        "methodName": "generateToken",
+        "lineNumber": 56,
+        "unsafe": true
+      },
+      {
+        "variableName": "token",
+        "methodName": "generateToken",
+        "lineNumber": 57,
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.YonghuEntity",
+    "securityMethods": [
+      "setLianxidianhua",
+      "setYonghuming",
+      "setId"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "lianxidianhua",
+        "unsafe": false
+      },
+      {
+        "name": "yonghuming",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "yonghuming": [
+        {
+          "methodName": "getYonghuming",
+          "lineNumber": 125,
+          "isWrite": false
+        }
+      ],
+      "lianxidianhua": [
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 185,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 109,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.StoreupVO",
+    "securityMethods": [
+      "setName",
+      "setTablename",
+      "setPicture",
+      "setRefid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "tablename",
+        "unsafe": false
+      },
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "name",
+        "unsafe": false
+      },
+      {
+        "name": "refid",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "name": [
+        {
+          "methodName": "setName",
+          "lineNumber": 87,
+          "isWrite": true
+        },
+        {
+          "methodName": "getName",
+          "lineNumber": 94,
+          "isWrite": false
+        }
+      ],
+      "refid": [
+        {
+          "methodName": "setRefid",
+          "lineNumber": 55,
+          "isWrite": true
+        },
+        {
+          "methodName": "getRefid",
+          "lineNumber": 62,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "setTablename",
+          "lineNumber": 71,
+          "isWrite": true
+        },
+        {
+          "methodName": "getTablename",
+          "lineNumber": 78,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 110,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 103,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.NewsEntity",
+    "securityMethods": [
+      "setPicture",
+      "setId"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 91,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 131,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.ChatModel",
+    "securityMethods": [
+      "setAdminid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "adminid",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "adminid": [
+        {
+          "methodName": "getAdminid",
+          "lineNumber": 63,
+          "isWrite": false
+        },
+        {
+          "methodName": "setAdminid",
+          "lineNumber": 56,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.DiscussshangpinxinxiModel",
+    "securityMethods": [
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "userid": [
+        {
+          "methodName": "setUserid",
+          "lineNumber": 50,
+          "isWrite": true
+        },
+        {
+          "methodName": "getUserid",
+          "lineNumber": 57,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.AddressModel",
+    "securityMethods": [
+      "setName",
+      "setAddress",
+      "setPhone"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "name",
+        "unsafe": false
+      },
+      {
+        "name": "phone",
+        "unsafe": false
+      },
+      {
+        "name": "address",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "address": [
+        {
+          "methodName": "setAddress",
+          "lineNumber": 56,
+          "isWrite": true
+        },
+        {
+          "methodName": "getAddress",
+          "lineNumber": 63,
+          "isWrite": false
+        }
+      ],
+      "phone": [
+        {
+          "methodName": "setPhone",
+          "lineNumber": 88,
+          "isWrite": true
+        },
+        {
+          "methodName": "getPhone",
+          "lineNumber": 95,
+          "isWrite": false
+        }
+      ],
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 79,
+          "isWrite": false
+        },
+        {
+          "methodName": "setName",
+          "lineNumber": 72,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.DiscussshangpinxinxiVO",
+    "securityMethods": [
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "userid": [
+        {
+          "methodName": "setUserid",
+          "lineNumber": 49,
+          "isWrite": true
+        },
+        {
+          "methodName": "getUserid",
+          "lineNumber": 56,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.NewsVO",
+    "securityMethods": [
+      "setPicture"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 72,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 65,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.OrdersModel",
+    "securityMethods": [
+      "setTablename",
+      "setPicture",
+      "setAddress",
+      "setGoodid",
+      "setGoodname",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "address",
+        "unsafe": false
+      },
+      {
+        "name": "goodname",
+        "unsafe": false
+      },
+      {
+        "name": "goodid",
+        "unsafe": false
+      },
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "tablename",
+        "unsafe": false
+      },
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "address": [
+        {
+          "methodName": "setAddress",
+          "lineNumber": 302,
+          "isWrite": true
+        },
+        {
+          "methodName": "getAddress",
+          "lineNumber": 309,
+          "isWrite": false
+        }
+      ],
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 165,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodname",
+          "lineNumber": 158,
+          "isWrite": true
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 149,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodid",
+          "lineNumber": 142,
+          "isWrite": true
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 117,
+          "isWrite": false
+        },
+        {
+          "methodName": "setTablename",
+          "lineNumber": 110,
+          "isWrite": true
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 133,
+          "isWrite": false
+        },
+        {
+          "methodName": "setUserid",
+          "lineNumber": 126,
+          "isWrite": true
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "setPicture",
+          "lineNumber": 174,
+          "isWrite": true
+        },
+        {
+          "methodName": "getPicture",
+          "lineNumber": 181,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.ShangpinfenleiModel",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.model.CartModel",
+    "securityMethods": [
+      "setPicture",
+      "setGoodid",
+      "setGoodname",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "goodid",
+        "unsafe": false
+      },
+      {
+        "name": "goodname",
+        "unsafe": false
+      },
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 113,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodname",
+          "lineNumber": 106,
+          "isWrite": true
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "setGoodid",
+          "lineNumber": 90,
+          "isWrite": true
+        },
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 97,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "setUserid",
+          "lineNumber": 74,
+          "isWrite": true
+        },
+        {
+          "methodName": "getUserid",
+          "lineNumber": 81,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 129,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 122,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.CartEntity",
+    "securityMethods": [
+      "setTablename",
+      "setPicture",
+      "setGoodid",
+      "setGoodname",
+      "setId",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "goodname",
+        "unsafe": false
+      },
+      {
+        "name": "tablename",
+        "unsafe": false
+      },
+      {
+        "name": "goodid",
+        "unsafe": false
+      },
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 167,
+          "isWrite": false
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 155,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 115,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 131,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 143,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 179,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.CartVO",
+    "securityMethods": [
+      "setPicture",
+      "setGoodid",
+      "setGoodname",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "goodid",
+        "unsafe": false
+      },
+      {
+        "name": "goodname",
+        "unsafe": false
+      },
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 112,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodname",
+          "lineNumber": 105,
+          "isWrite": true
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "setGoodid",
+          "lineNumber": 89,
+          "isWrite": true
+        },
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 96,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "setUserid",
+          "lineNumber": 73,
+          "isWrite": true
+        },
+        {
+          "methodName": "getUserid",
+          "lineNumber": 80,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 128,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 121,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.ShangpinpingjiaModel",
+    "securityMethods": [
+      "setLianxidianhua",
+      "setYonghuming"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "yonghuming",
+        "unsafe": false
+      },
+      {
+        "name": "lianxidianhua",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "yonghuming": [
+        {
+          "methodName": "getYonghuming",
+          "lineNumber": 219,
+          "isWrite": false
+        },
+        {
+          "methodName": "setYonghuming",
+          "lineNumber": 212,
+          "isWrite": true
+        }
+      ],
+      "lianxidianhua": [
+        {
+          "methodName": "setLianxidianhua",
+          "lineNumber": 228,
+          "isWrite": true
+        },
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 235,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.ChatVO",
+    "securityMethods": [
+      "setAdminid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "adminid",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "adminid": [
+        {
+          "methodName": "setAdminid",
+          "lineNumber": 55,
+          "isWrite": true
+        },
+        {
+          "methodName": "getAdminid",
+          "lineNumber": 62,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.StoreupEntity",
+    "securityMethods": [
+      "setName",
+      "setTablename",
+      "setPicture",
+      "setId",
+      "setRefid",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "name",
+        "unsafe": false
+      },
+      {
+        "name": "tablename",
+        "unsafe": false
+      },
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "refid",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 149,
+          "isWrite": false
+        }
+      ],
+      "refid": [
+        {
+          "methodName": "getRefid",
+          "lineNumber": 125,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 97,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 137,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 113,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 161,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.controller.CartController",
+    "securityMethods": [
+      "detail",
+      "remindCount",
+      "delete",
+      "info"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "userId",
+        "methodName": "page",
+        "lineNumber": 59,
+        "unsafe": true
+      }
+    ],
+    "flowRecords": [
+      {
+        "methodName": "page",
+        "lineNumber": 61,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      }
+    ]
+  },
+  {
+    "className": "com.entity.OrdersEntity",
+    "securityMethods": [
+      "setTablename",
+      "setPicture",
+      "setAddress",
+      "setGoodid",
+      "setGoodname",
+      "setId",
+      "setOrderid",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "address",
+        "unsafe": false
+      },
+      {
+        "name": "goodid",
+        "unsafe": false
+      },
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "goodname",
+        "unsafe": false
+      },
+      {
+        "name": "orderid",
+        "unsafe": false
+      },
+      {
+        "name": "tablename",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "address": [
+        {
+          "methodName": "getAddress",
+          "lineNumber": 323,
+          "isWrite": false
+        }
+      ],
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 215,
+          "isWrite": false
+        }
+      ],
+      "orderid": [
+        {
+          "methodName": "getOrderid",
+          "lineNumber": 167,
+          "isWrite": false
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 203,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 151,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 179,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 191,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 227,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.ChatEntity",
+    "securityMethods": [
+      "setAdminid",
+      "setId",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "adminid",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "adminid": [
+        {
+          "methodName": "getAdminid",
+          "lineNumber": 125,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 97,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 113,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.ShangpinfenleiEntity",
+    "securityMethods": [
+      "setId"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 73,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.ShangpinpingjiaVO",
+    "securityMethods": [
+      "setLianxidianhua",
+      "setYonghuming"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "yonghuming",
+        "unsafe": false
+      },
+      {
+        "name": "lianxidianhua",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "yonghuming": [
+        {
+          "methodName": "getYonghuming",
+          "lineNumber": 217,
+          "isWrite": false
+        },
+        {
+          "methodName": "setYonghuming",
+          "lineNumber": 210,
+          "isWrite": true
+        }
+      ],
+      "lianxidianhua": [
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 233,
+          "isWrite": false
+        },
+        {
+          "methodName": "setLianxidianhua",
+          "lineNumber": 226,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.ShangpinxinxiVO",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.TokenEntity",
+    "securityMethods": [
+      "setTablename",
+      "setUsername",
+      "setToken",
+      "setRole",
+      "getToken",
+      "getRole",
+      "setId",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "tablename",
+        "unsafe": false
+      },
+      {
+        "name": "token",
+        "unsafe": false
+      },
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "username",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "id": [
+        {
+          "methodName": "setId",
+          "lineNumber": 60,
+          "isWrite": true
+        },
+        {
+          "methodName": "getId",
+          "lineNumber": 56,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 84,
+          "isWrite": false
+        },
+        {
+          "methodName": "static_block",
+          "lineNumber": 123,
+          "isWrite": true
+        },
+        {
+          "methodName": "setTablename",
+          "lineNumber": 88,
+          "isWrite": true
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "static_block",
+          "lineNumber": 121,
+          "isWrite": true
+        },
+        {
+          "methodName": "setUserid",
+          "lineNumber": 68,
+          "isWrite": true
+        },
+        {
+          "methodName": "getUserid",
+          "lineNumber": 64,
+          "isWrite": false
+        }
+      ],
+      "token": [
+        {
+          "methodName": "getToken",
+          "lineNumber": 80,
+          "isWrite": false
+        },
+        {
+          "methodName": "static_block",
+          "lineNumber": 125,
+          "isWrite": true
+        },
+        {
+          "methodName": "setToken",
+          "lineNumber": 92,
+          "isWrite": true
+        }
+      ],
+      "username": [
+        {
+          "methodName": "static_block",
+          "lineNumber": 122,
+          "isWrite": true
+        },
+        {
+          "methodName": "getUsername",
+          "lineNumber": 112,
+          "isWrite": false
+        },
+        {
+          "methodName": "setUsername",
+          "lineNumber": 116,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.controller.FileController",
+    "securityMethods": [
+      "download",
+      "upload"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "fileExt",
+        "methodName": "upload",
+        "lineNumber": 59,
+        "unsafe": true
+      },
+      {
+        "variableName": "path",
+        "methodName": "upload",
+        "lineNumber": 61,
+        "unsafe": true
+      },
+      {
+        "variableName": "upload",
+        "methodName": "upload",
+        "lineNumber": 66,
+        "unsafe": true
+      },
+      {
+        "variableName": "fileName",
+        "methodName": "upload",
+        "lineNumber": 71,
+        "unsafe": true
+      },
+      {
+        "variableName": "path",
+        "methodName": "download",
+        "lineNumber": 97,
+        "unsafe": true
+      },
+      {
+        "variableName": "upload",
+        "methodName": "download",
+        "lineNumber": 102,
+        "unsafe": true
+      },
+      {
+        "variableName": "file",
+        "methodName": "download",
+        "lineNumber": 107,
+        "unsafe": true
+      }
+    ],
+    "flowRecords": [
+      {
+        "methodName": "upload",
+        "lineNumber": 60,
+        "path": "fileExt -> com.controller.FileController.log.info(\"websocket handshake success,fileExt:{}\", fileExt)"
+      },
+      {
+        "methodName": "upload",
+        "lineNumber": 65,
+        "path": "path -> com.controller.FileController.log.info(\"websocket handshake success,path:{}\", path)"
+      },
+      {
+        "methodName": "download",
+        "lineNumber": 101,
+        "path": "path -> com.controller.FileController.log.info(\"websocket handshake success,path:{}\", path)"
+      },
+      {
+        "methodName": "upload",
+        "lineNumber": 70,
+        "path": "upload -> com.controller.FileController.log.info(\"websocket handshake success,upload:{}\", upload)"
+      },
+      {
+        "methodName": "download",
+        "lineNumber": 106,
+        "path": "upload -> com.controller.FileController.log.info(\"websocket handshake success,upload:{}\", upload)"
+      },
+      {
+        "methodName": "upload",
+        "lineNumber": 65,
+        "path": "ControlDependency[try-catch] -> path -> com.controller.FileController.log.info(\"websocket handshake success,path:{}\", path)"
+      },
+      {
+        "methodName": "download",
+        "lineNumber": 101,
+        "path": "ControlDependency[try-catch] -> path -> com.controller.FileController.log.info(\"websocket handshake success,path:{}\", path)"
+      },
+      {
+        "methodName": "upload",
+        "lineNumber": 70,
+        "path": "ControlDependency[try-catch] -> upload -> com.controller.FileController.log.info(\"websocket handshake success,upload:{}\", upload)"
+      },
+      {
+        "methodName": "download",
+        "lineNumber": 106,
+        "path": "ControlDependency[try-catch] -> upload -> com.controller.FileController.log.info(\"websocket handshake success,upload:{}\", upload)"
+      },
+      {
+        "methodName": "download",
+        "lineNumber": 115,
+        "path": "ControlDependency[try-catch] -> file -> com.controller.FileController.log.info(\"websocket handshake success,file:{}\", new org.springframework.http.ResponseEntity<byte[]>(org.apache.commons.io.FileUtils.readFileToByteArray(file), headers, org.springframework.http.HttpStatus.CREATED))"
+      }
+    ]
+  },
+  {
+    "className": "com.entity.AddressEntity",
+    "securityMethods": [
+      "setName",
+      "setAddress",
+      "setId",
+      "setPhone",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "phone",
+        "unsafe": false
+      },
+      {
+        "name": "name",
+        "unsafe": false
+      },
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "address",
+        "unsafe": false
+      },
+      {
+        "name": "id",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "address": [
+        {
+          "methodName": "getAddress",
+          "lineNumber": 125,
+          "isWrite": false
+        }
+      ],
+      "phone": [
+        {
+          "methodName": "getPhone",
+          "lineNumber": 149,
+          "isWrite": false
+        }
+      ],
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 137,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 97,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 113,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.controller.UserController",
+    "securityMethods": [
+      "logout",
+      "login",
+      "delete",
+      "resetPass",
+      "register",
+      "info"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "tokenService",
+        "unsafe": false
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "token",
+        "methodName": "login",
+        "lineNumber": 58,
+        "unsafe": true
+      },
+      {
+        "variableName": "id",
+        "methodName": "getCurrUser",
+        "lineNumber": 134,
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "tokenService": [
+        {
+          "methodName": "login",
+          "lineNumber": 58,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.OrdersVO",
+    "securityMethods": [
+      "setTablename",
+      "setPicture",
+      "setAddress",
+      "setGoodid",
+      "setGoodname",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "address",
+        "unsafe": false
+      },
+      {
+        "name": "goodname",
+        "unsafe": false
+      },
+      {
+        "name": "goodid",
+        "unsafe": false
+      },
+      {
+        "name": "picture",
+        "unsafe": false
+      },
+      {
+        "name": "tablename",
+        "unsafe": false
+      },
+      {
+        "name": "userid",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "address": [
+        {
+          "methodName": "getAddress",
+          "lineNumber": 308,
+          "isWrite": false
+        },
+        {
+          "methodName": "setAddress",
+          "lineNumber": 301,
+          "isWrite": true
+        }
+      ],
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 164,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodname",
+          "lineNumber": 157,
+          "isWrite": true
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "setGoodid",
+          "lineNumber": 141,
+          "isWrite": true
+        },
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 148,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 116,
+          "isWrite": false
+        },
+        {
+          "methodName": "setTablename",
+          "lineNumber": 109,
+          "isWrite": true
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "setUserid",
+          "lineNumber": 125,
+          "isWrite": true
+        },
+        {
+          "methodName": "getUserid",
+          "lineNumber": 132,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 180,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 173,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.ShangpinfenleiVO",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.view.ShangpinxinxiView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.view.StoreupView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.view.YonghuView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.vo.AddressVO",
+    "securityMethods": [
+      "setName",
+      "setAddress",
+      "setPhone"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "name",
+        "unsafe": false
+      },
+      {
+        "name": "phone",
+        "unsafe": false
+      },
+      {
+        "name": "address",
+        "unsafe": false
+      },
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "address": [
+        {
+          "methodName": "getAddress",
+          "lineNumber": 62,
+          "isWrite": false
+        },
+        {
+          "methodName": "setAddress",
+          "lineNumber": 55,
+          "isWrite": true
+        }
+      ],
+      "phone": [
+        {
+          "methodName": "getPhone",
+          "lineNumber": 94,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPhone",
+          "lineNumber": 87,
+          "isWrite": true
+        }
+      ],
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 78,
+          "isWrite": false
+        },
+        {
+          "methodName": "setName",
+          "lineNumber": 71,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.view.ShangpinfenleiView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.view.ShangpinpingjiaView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.entity.view.OrdersView",
+    "sensitiveFields": [
+      {
+        "name": "serialVersionUID",
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.utils.MPUtil",
+    "sensitiveLocals": [
+      {
+        "variableName": "entry",
+        "methodName": "genEq",
+        "lineNumber": 93,
+        "unsafe": true
+      },
+      {
+        "variableName": "key",
+        "methodName": "genEq",
+        "lineNumber": 94,
+        "unsafe": true
+      },
+      {
+        "variableName": "entry",
+        "methodName": "genLike",
+        "lineNumber": 51,
+        "unsafe": true
+      },
+      {
+        "variableName": "key",
+        "methodName": "genLike",
+        "lineNumber": 52,
+        "unsafe": true
+      },
+      {
+        "variableName": "key",
+        "methodName": "between",
+        "lineNumber": 103,
+        "unsafe": false
+      },
+      {
+        "variableName": "columnName",
+        "methodName": "between",
+        "lineNumber": 104,
+        "unsafe": true
+      },
+      {
+        "variableName": "entry",
+        "methodName": "camelToUnderlineMap",
+        "lineNumber": 170,
+        "unsafe": true
+      },
+      {
+        "variableName": "key",
+        "methodName": "camelToUnderlineMap",
+        "lineNumber": 171,
+        "unsafe": true
+      },
+      {
+        "variableName": "entry",
+        "methodName": "genLikeOrEq",
+        "lineNumber": 70,
+        "unsafe": true
+      },
+      {
+        "variableName": "newKey",
+        "methodName": "camelToUnderlineMap",
+        "lineNumber": 172,
+        "unsafe": true
+      },
+      {
+        "variableName": "key",
+        "methodName": "genLikeOrEq",
+        "lineNumber": 71,
+        "unsafe": true
+      }
+    ]
+  },
+  {
+    "className": "com.controller.ChatController",
+    "securityMethods": [
+      "detail",
+      "remindCount",
+      "delete",
+      "info"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "userId",
+        "methodName": "page",
+        "lineNumber": 60,
+        "unsafe": true
+      },
+      {
+        "variableName": "userId",
+        "methodName": "list",
+        "lineNumber": 76,
+        "unsafe": true
+      }
+    ],
+    "flowRecords": [
+      {
+        "methodName": "page",
+        "lineNumber": 62,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "list",
+        "lineNumber": 78,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "page",
+        "lineNumber": 62,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "list",
+        "lineNumber": 78,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      }
+    ]
+  },
+  {
+    "className": "com.controller.CommonController",
+    "securityMethods": [
+      "matchFace",
+      "sh",
+      "getFollowByOption",
+      "getOption",
+      "remindCount",
+      "value",
+      "cal",
+      "group"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "BAIDU_DITU_AK",
+        "unsafe": true
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "APIKey",
+        "methodName": "matchFace",
+        "lineNumber": 84,
+        "unsafe": true
+      },
+      {
+        "variableName": "SecretKey",
+        "methodName": "matchFace",
+        "lineNumber": 85,
+        "unsafe": true
+      },
+      {
+        "variableName": "token",
+        "methodName": "matchFace",
+        "lineNumber": 86,
+        "unsafe": true
+      },
+      {
+        "variableName": "file1",
+        "methodName": "matchFace",
+        "lineNumber": 99,
+        "unsafe": true
+      },
+      {
+        "variableName": "file2",
+        "methodName": "matchFace",
+        "lineNumber": 100,
+        "unsafe": true
+      },
+      {
+        "variableName": "img1",
+        "methodName": "matchFace",
+        "lineNumber": 101,
+        "unsafe": false
+      },
+      {
+        "variableName": "img2",
+        "methodName": "matchFace",
+        "lineNumber": 102,
+        "unsafe": false
+      }
+    ],
+    "flowRecords": [
+      {
+        "methodName": "sh",
+        "lineNumber": 173,
+        "path": "sh -> com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)"
+      },
+      {
+        "methodName": "remindCount",
+        "lineNumber": 213,
+        "path": "sh -> com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)"
+      },
+      {
+        "methodName": "sh",
+        "lineNumber": 173,
+        "path": "remindCount -> com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)"
+      },
+      {
+        "methodName": "remindCount",
+        "lineNumber": 213,
+        "path": "remindCount -> com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)"
+      },
+      {
+        "methodName": "location",
+        "lineNumber": 63,
+        "path": "BAIDU_DITU_AK -> com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)"
+      },
+      {
+        "methodName": "location",
+        "lineNumber": 63,
+        "path": "ControlDependency[if(com.controller.CommonController.BAIDU_DITU_AK == null)] -> BAIDU_DITU_AK -> field_read:BAIDU_DITU_AK -> com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)"
+      },
+      {
+        "methodName": "matchFace",
+        "lineNumber": 87,
+        "path": "ControlDependency[if(com.controller.CommonController.client == null)] -> APIKey -> com.controller.CommonController.log.info(\"websocket handshake success,APIKey:{}\", APIKey)"
+      },
+      {
+        "methodName": "matchFace",
+        "lineNumber": 88,
+        "path": "ControlDependency[if(com.controller.CommonController.client == null)] -> SecretKey -> // 日志输出APIKey\r\ncom.controller.CommonController.log.info(\"websocket handshake success,SecretKey:{}\", SecretKey)"
+      },
+      {
+        "methodName": "matchFace",
+        "lineNumber": 89,
+        "path": "ControlDependency[if(com.controller.CommonController.client == null)] -> token -> // 日志输出SecretKey\r\ncom.controller.CommonController.log.info(\"websocket handshake success,token:{}\", token)"
+      }
+    ],
+    "fieldUsages": {
+      "BAIDU_DITU_AK": [
+        {
+          "methodName": "location",
+          "lineNumber": 64,
+          "isWrite": false
+        },
+        {
+          "methodName": "location",
+          "lineNumber": 62,
+          "isWrite": true
+        },
+        {
+          "methodName": "location",
+          "lineNumber": 68,
+          "isWrite": false
+        },
+        {
+          "methodName": "location",
+          "lineNumber": 63,
+          "isWrite": false
+        },
+        {
+          "methodName": "location",
+          "lineNumber": 61,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.controller.YonghuController",
+    "securityMethods": [
+      "add",
+      "query",
+      "save",
+      "update",
+      "list",
+      "login",
+      "remindCount",
+      "delete",
+      "logout",
+      "page",
+      "detail",
+      "resetPass",
+      "register",
+      "info"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "tokenService",
+        "unsafe": false
+      },
+      {
+        "name": "yonghuService",
+        "unsafe": false
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "yonghuView",
+        "methodName": "query",
+        "lineNumber": 159,
+        "unsafe": true
+      },
+      {
+        "variableName": "yonghu",
+        "methodName": "info",
+        "lineNumber": 168,
+        "unsafe": true
+      },
+      {
+        "variableName": "yonghu",
+        "methodName": "detail",
+        "lineNumber": 177,
+        "unsafe": true
+      },
+      {
+        "variableName": "token",
+        "methodName": "login",
+        "lineNumber": 65,
+        "unsafe": true
+      },
+      {
+        "variableName": "uId",
+        "methodName": "register",
+        "lineNumber": 80,
+        "unsafe": true
+      },
+      {
+        "variableName": "id",
+        "methodName": "getCurrUser",
+        "lineNumber": 100,
+        "unsafe": true
+      }
+    ],
+    "fieldUsages": {
+      "yonghuService": [
+        {
+          "methodName": "update",
+          "lineNumber": 222,
+          "isWrite": false
+        },
+        {
+          "methodName": "save",
+          "lineNumber": 191,
+          "isWrite": false
+        },
+        {
+          "methodName": "save",
+          "lineNumber": 196,
+          "isWrite": false
+        },
+        {
+          "methodName": "register",
+          "lineNumber": 82,
+          "isWrite": false
+        },
+        {
+          "methodName": "info",
+          "lineNumber": 168,
+          "isWrite": false
+        },
+        {
+          "methodName": "resetPass",
+          "lineNumber": 111,
+          "isWrite": false
+        },
+        {
+          "methodName": "resetPass",
+          "lineNumber": 116,
+          "isWrite": false
+        },
+        {
+          "methodName": "list",
+          "lineNumber": 138,
+          "isWrite": false
+        },
+        {
+          "methodName": "page",
+          "lineNumber": 127,
+          "isWrite": false
+        },
+        {
+          "methodName": "getCurrUser",
+          "lineNumber": 101,
+          "isWrite": false
+        },
+        {
+          "methodName": "register",
+          "lineNumber": 76,
+          "isWrite": false
+        },
+        {
+          "methodName": "detail",
+          "lineNumber": 177,
+          "isWrite": false
+        },
+        {
+          "methodName": "login",
+          "lineNumber": 60,
+          "isWrite": false
+        },
+        {
+          "methodName": "delete",
+          "lineNumber": 232,
+          "isWrite": false
+        },
+        {
+          "methodName": "add",
+          "lineNumber": 212,
+          "isWrite": false
+        },
+        {
+          "methodName": "list",
+          "lineNumber": 149,
+          "isWrite": false
+        },
+        {
+          "methodName": "remindCount",
+          "lineNumber": 275,
+          "isWrite": false
+        },
+        {
+          "methodName": "query",
+          "lineNumber": 159,
+          "isWrite": false
+        },
+        {
+          "methodName": "add",
+          "lineNumber": 207,
+          "isWrite": false
+        }
+      ],
+      "tokenService": [
+        {
+          "methodName": "login",
+          "lineNumber": 65,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.controller.AddressController",
+    "securityMethods": [
+      "add",
+      "query",
+      "save",
+      "update",
+      "page",
+      "detail",
+      "list",
+      "remindCount",
+      "delete",
+      "info"
+    ],
+    "sensitiveFields": [
+      {
+        "name": "addressService",
+        "unsafe": false
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "address",
+        "methodName": "info",
+        "lineNumber": 114,
+        "unsafe": true
+      },
+      {
+        "variableName": "address",
+        "methodName": "defaultAddress",
+        "lineNumber": 189,
+        "unsafe": true
+      },
+      {
+        "variableName": "userId",
+        "methodName": "add",
+        "lineNumber": 159,
+        "unsafe": true
+      },
+      {
+        "variableName": "userId",
+        "methodName": "save",
+        "lineNumber": 140,
+        "unsafe": true
+      },
+      {
+        "variableName": "addressView",
+        "methodName": "query",
+        "lineNumber": 104,
+        "unsafe": true
+      },
+      {
+        "variableName": "userId",
+        "methodName": "list",
+        "lineNumber": 75,
+        "unsafe": true
+      },
+      {
+        "variableName": "userId",
+        "methodName": "page",
+        "lineNumber": 59,
+        "unsafe": true
+      },
+      {
+        "variableName": "address",
+        "methodName": "detail",
+        "lineNumber": 124,
+        "unsafe": true
+      }
+    ],
+    "flowRecords": [
+      {
+        "methodName": "save",
+        "lineNumber": 147,
+        "path": "page -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 166,
+        "path": "page -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "save",
+        "lineNumber": 147,
+        "path": "list -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "save",
+        "lineNumber": 147,
+        "path": "add -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 166,
+        "path": "list -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 166,
+        "path": "add -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "save",
+        "lineNumber": 147,
+        "path": "save -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 166,
+        "path": "save -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "save",
+        "lineNumber": 147,
+        "path": "query -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "save",
+        "lineNumber": 147,
+        "path": "list -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 166,
+        "path": "query -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 166,
+        "path": "list -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "save",
+        "lineNumber": 147,
+        "path": "update -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 166,
+        "path": "update -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "page",
+        "lineNumber": 61,
+        "path": "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "page",
+        "lineNumber": 61,
+        "path": "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "page",
+        "lineNumber": 61,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "query",
+        "lineNumber": 105,
+        "path": "addressView -> cn.hutool.core.lang.Console.print(\"websocket handshake success,addressView:{}\", addressView)"
+      },
+      {
+        "methodName": "info",
+        "lineNumber": 115,
+        "path": "address -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "info",
+        "lineNumber": 115,
+        "path": "address -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "list",
+        "lineNumber": 77,
+        "path": "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "detail",
+        "lineNumber": 125,
+        "path": "address -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "detail",
+        "lineNumber": 125,
+        "path": "address -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "page",
+        "lineNumber": 61,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "defaultAddress",
+        "lineNumber": 190,
+        "path": "address -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "list",
+        "lineNumber": 77,
+        "path": "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "list",
+        "lineNumber": 77,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "list",
+        "lineNumber": 77,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+      },
+      {
+        "methodName": "defaultAddress",
+        "lineNumber": 190,
+        "path": "address -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "save",
+        "lineNumber": 145,
+        "path": "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)"
+      },
+      {
+        "methodName": "save",
+        "lineNumber": 145,
+        "path": "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)"
+      },
+      {
+        "methodName": "save",
+        "lineNumber": 145,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 164,
+        "path": "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)"
+      },
+      {
+        "methodName": "save",
+        "lineNumber": 145,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 164,
+        "path": "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 164,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)"
+      },
+      {
+        "methodName": "add",
+        "lineNumber": 164,
+        "path": "ControlDependency[if(!request.getSession().getAttribute(\"role\").toString().equals(\"管理员\"))] -> userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)"
+      },
+      {
+        "methodName": "info",
+        "lineNumber": 115,
+        "path": "address -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "detail",
+        "lineNumber": 125,
+        "path": "address -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      },
+      {
+        "methodName": "defaultAddress",
+        "lineNumber": 190,
+        "path": "address -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)"
+      }
+    ],
+    "fieldUsages": {
+      "addressService": [
+        {
+          "methodName": "remindCount",
+          "lineNumber": 245,
+          "isWrite": false
+        },
+        {
+          "methodName": "detail",
+          "lineNumber": 124,
+          "isWrite": false
+        },
+        {
+          "methodName": "update",
+          "lineNumber": 179,
+          "isWrite": false
+        },
+        {
+          "methodName": "update",
+          "lineNumber": 177,
+          "isWrite": false
+        },
+        {
+          "methodName": "add",
+          "lineNumber": 161,
+          "isWrite": false
+        },
+        {
+          "methodName": "save",
+          "lineNumber": 146,
+          "isWrite": false
+        },
+        {
+          "methodName": "save",
+          "lineNumber": 142,
+          "isWrite": false
+        },
+        {
+          "methodName": "info",
+          "lineNumber": 114,
+          "isWrite": false
+        },
+        {
+          "methodName": "delete",
+          "lineNumber": 199,
+          "isWrite": false
+        },
+        {
+          "methodName": "page",
+          "lineNumber": 64,
+          "isWrite": false
+        },
+        {
+          "methodName": "list",
+          "lineNumber": 80,
+          "isWrite": false
+        },
+        {
+          "methodName": "query",
+          "lineNumber": 104,
+          "isWrite": false
+        },
+        {
+          "methodName": "list",
+          "lineNumber": 93,
+          "isWrite": false
+        },
+        {
+          "methodName": "add",
+          "lineNumber": 165,
+          "isWrite": false
+        },
+        {
+          "methodName": "defaultAddress",
+          "lineNumber": 189,
+          "isWrite": false
+        }
+      ]
+    }
+  }
+]

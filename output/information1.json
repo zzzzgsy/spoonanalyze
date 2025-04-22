@@ -1,0 +1,3023 @@
+[
+  {
+    "className": "com.entity.vo.YonghuVO",
+    "securityMethods": [
+      "setLianxidianhua"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "lianxidianhua"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "lianxidianhua": [
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 138,
+          "isWrite": false
+        },
+        {
+          "methodName": "setLianxidianhua",
+          "lineNumber": 131,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.UserEntity",
+    "securityMethods": [
+      "setPassword",
+      "setUsername",
+      "setRole",
+      "getRole",
+      "setId"
+    ],
+    "sensitiveFields": [
+      "password",
+      "serialVersionUID",
+      "id",
+      "username"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "password": [
+        {
+          "methodName": "getPassword",
+          "lineNumber": 46,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPassword",
+          "lineNumber": 50,
+          "isWrite": true
+        }
+      ],
+      "serialVersionUID": [],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 70,
+          "isWrite": false
+        },
+        {
+          "methodName": "setId",
+          "lineNumber": 74,
+          "isWrite": true
+        }
+      ],
+      "username": [
+        {
+          "methodName": "setUsername",
+          "lineNumber": 42,
+          "isWrite": true
+        },
+        {
+          "methodName": "getUsername",
+          "lineNumber": 38,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.NewsModel",
+    "securityMethods": [
+      "setPicture"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "picture": [
+        {
+          "methodName": "setPicture",
+          "lineNumber": 66,
+          "isWrite": true
+        },
+        {
+          "methodName": "getPicture",
+          "lineNumber": 73,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.YonghuModel",
+    "securityMethods": [
+      "setLianxidianhua"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "lianxidianhua"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "lianxidianhua": [
+        {
+          "methodName": "setLianxidianhua",
+          "lineNumber": 132,
+          "isWrite": true
+        },
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 139,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.view.AddressView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.model.ShangpinxinxiModel",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.EIException",
+    "securityMethods": [
+      "setCode"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "code"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "code": [
+        {
+          "methodName": "static_block",
+          "lineNumber": 26,
+          "isWrite": true
+        },
+        {
+          "methodName": "getCode",
+          "lineNumber": 44,
+          "isWrite": false
+        },
+        {
+          "methodName": "static_block",
+          "lineNumber": 32,
+          "isWrite": true
+        },
+        {
+          "methodName": "setCode",
+          "lineNumber": 48,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.ConfigEntity",
+    "securityMethods": [
+      "setName",
+      "setId"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "name",
+      "id"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "name": [
+        {
+          "methodName": "setName",
+          "lineNumber": 42,
+          "isWrite": true
+        },
+        {
+          "methodName": "getName",
+          "lineNumber": 38,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 30,
+          "isWrite": false
+        },
+        {
+          "methodName": "setId",
+          "lineNumber": 34,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.NewsEntity",
+    "securityMethods": [
+      "setPicture",
+      "setId"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 91,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 131,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.DiscussshangpinxinxiEntity",
+    "securityMethods": [
+      "setId",
+      "setRefid",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "refid",
+      "userid"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 91,
+          "isWrite": false
+        }
+      ],
+      "refid": [
+        {
+          "methodName": "getRefid",
+          "lineNumber": 107,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 119,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.StoreupEntity",
+    "securityMethods": [
+      "setName",
+      "setTablename",
+      "setPicture",
+      "setId",
+      "setRefid",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "name",
+      "refid",
+      "id",
+      "tablename",
+      "userid",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 149,
+          "isWrite": false
+        }
+      ],
+      "refid": [
+        {
+          "methodName": "getRefid",
+          "lineNumber": 125,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 97,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 137,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 113,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 161,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.YonghuEntity",
+    "securityMethods": [
+      "setLianxidianhua",
+      "setYonghuming",
+      "setId"
+    ],
+    "sensitiveFields": [
+      "yonghuming",
+      "serialVersionUID",
+      "lianxidianhua",
+      "id"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "yonghuming": [
+        {
+          "methodName": "getYonghuming",
+          "lineNumber": 125,
+          "isWrite": false
+        }
+      ],
+      "serialVersionUID": [],
+      "lianxidianhua": [
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 185,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 109,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.ShangpinfenleiModel",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.ShangpinpingjiaEntity",
+    "securityMethods": [
+      "setLianxidianhua",
+      "setYonghuming",
+      "setId"
+    ],
+    "sensitiveFields": [
+      "yonghuming",
+      "serialVersionUID",
+      "lianxidianhua",
+      "id"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "yonghuming": [
+        {
+          "methodName": "getYonghuming",
+          "lineNumber": 253,
+          "isWrite": false
+        }
+      ],
+      "serialVersionUID": [],
+      "lianxidianhua": [
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 265,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 141,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.ChatModel",
+    "securityMethods": [
+      "setAdminid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "adminid"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "adminid": [
+        {
+          "methodName": "setAdminid",
+          "lineNumber": 56,
+          "isWrite": true
+        },
+        {
+          "methodName": "getAdminid",
+          "lineNumber": 63,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.CartEntity",
+    "securityMethods": [
+      "setTablename",
+      "setPicture",
+      "setGoodid",
+      "setGoodname",
+      "setId",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "goodname",
+      "goodid",
+      "id",
+      "tablename",
+      "userid",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 167,
+          "isWrite": false
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 155,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 115,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 131,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 143,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 179,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.interceptor.AuthorizationInterceptor",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "tokenService",
+      "LOGIN_TOKEN_KEY"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "tokenEntity",
+        "methodName": "preHandle",
+        "lineNumber": 68
+      },
+      {
+        "variableName": "token",
+        "methodName": "preHandle",
+        "lineNumber": 59
+      }
+    ],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "tokenService": [
+        {
+          "methodName": "preHandle",
+          "lineNumber": 70,
+          "isWrite": false
+        }
+      ],
+      "LOGIN_TOKEN_KEY": [
+        {
+          "methodName": "preHandle",
+          "lineNumber": 59,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.DiscussshangpinxinxiModel",
+    "securityMethods": [
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "userid"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 57,
+          "isWrite": false
+        },
+        {
+          "methodName": "setUserid",
+          "lineNumber": 50,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.ShangpinxinxiEntity",
+    "securityMethods": [
+      "setId"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 123,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.AddressEntity",
+    "securityMethods": [
+      "setName",
+      "setAddress",
+      "setId",
+      "setPhone",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "address",
+      "phone",
+      "name",
+      "id",
+      "userid"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "address": [
+        {
+          "methodName": "getAddress",
+          "lineNumber": 125,
+          "isWrite": false
+        }
+      ],
+      "phone": [
+        {
+          "methodName": "getPhone",
+          "lineNumber": 149,
+          "isWrite": false
+        }
+      ],
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 137,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 97,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 113,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.AddressModel",
+    "securityMethods": [
+      "setName",
+      "setAddress",
+      "setPhone"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "address",
+      "phone",
+      "name"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "address": [
+        {
+          "methodName": "setAddress",
+          "lineNumber": 56,
+          "isWrite": true
+        },
+        {
+          "methodName": "getAddress",
+          "lineNumber": 63,
+          "isWrite": false
+        }
+      ],
+      "phone": [
+        {
+          "methodName": "setPhone",
+          "lineNumber": 88,
+          "isWrite": true
+        },
+        {
+          "methodName": "getPhone",
+          "lineNumber": 95,
+          "isWrite": false
+        }
+      ],
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 79,
+          "isWrite": false
+        },
+        {
+          "methodName": "setName",
+          "lineNumber": 72,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.TokenEntity",
+    "securityMethods": [
+      "setTablename",
+      "setUsername",
+      "setToken",
+      "setRole",
+      "getToken",
+      "getRole",
+      "setId",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "tablename",
+      "userid",
+      "token",
+      "username"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "id": [
+        {
+          "methodName": "setId",
+          "lineNumber": 60,
+          "isWrite": true
+        },
+        {
+          "methodName": "getId",
+          "lineNumber": 56,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "setTablename",
+          "lineNumber": 88,
+          "isWrite": true
+        },
+        {
+          "methodName": "static_block",
+          "lineNumber": 123,
+          "isWrite": true
+        },
+        {
+          "methodName": "getTablename",
+          "lineNumber": 84,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "setUserid",
+          "lineNumber": 68,
+          "isWrite": true
+        },
+        {
+          "methodName": "static_block",
+          "lineNumber": 121,
+          "isWrite": true
+        },
+        {
+          "methodName": "getUserid",
+          "lineNumber": 64,
+          "isWrite": false
+        }
+      ],
+      "token": [
+        {
+          "methodName": "getToken",
+          "lineNumber": 80,
+          "isWrite": false
+        },
+        {
+          "methodName": "static_block",
+          "lineNumber": 125,
+          "isWrite": true
+        },
+        {
+          "methodName": "setToken",
+          "lineNumber": 92,
+          "isWrite": true
+        }
+      ],
+      "username": [
+        {
+          "methodName": "getUsername",
+          "lineNumber": 112,
+          "isWrite": false
+        },
+        {
+          "methodName": "setUsername",
+          "lineNumber": 116,
+          "isWrite": true
+        },
+        {
+          "methodName": "static_block",
+          "lineNumber": 122,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.view.DiscussshangpinxinxiView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.view.NewsView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.view.CartView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.view.ChatView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.model.StoreupModel",
+    "securityMethods": [
+      "setName",
+      "setTablename",
+      "setPicture",
+      "setRefid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "name",
+      "refid",
+      "tablename",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 95,
+          "isWrite": false
+        },
+        {
+          "methodName": "setName",
+          "lineNumber": 88,
+          "isWrite": true
+        }
+      ],
+      "refid": [
+        {
+          "methodName": "setRefid",
+          "lineNumber": 56,
+          "isWrite": true
+        },
+        {
+          "methodName": "getRefid",
+          "lineNumber": 63,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 79,
+          "isWrite": false
+        },
+        {
+          "methodName": "setTablename",
+          "lineNumber": 72,
+          "isWrite": true
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "setPicture",
+          "lineNumber": 104,
+          "isWrite": true
+        },
+        {
+          "methodName": "getPicture",
+          "lineNumber": 111,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.OrdersModel",
+    "securityMethods": [
+      "setTablename",
+      "setPicture",
+      "setAddress",
+      "setGoodid",
+      "setGoodname",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "address",
+      "goodname",
+      "goodid",
+      "tablename",
+      "userid",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "address": [
+        {
+          "methodName": "setAddress",
+          "lineNumber": 302,
+          "isWrite": true
+        },
+        {
+          "methodName": "getAddress",
+          "lineNumber": 309,
+          "isWrite": false
+        }
+      ],
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 165,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodname",
+          "lineNumber": 158,
+          "isWrite": true
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 149,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodid",
+          "lineNumber": 142,
+          "isWrite": true
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 117,
+          "isWrite": false
+        },
+        {
+          "methodName": "setTablename",
+          "lineNumber": 110,
+          "isWrite": true
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 133,
+          "isWrite": false
+        },
+        {
+          "methodName": "setUserid",
+          "lineNumber": 126,
+          "isWrite": true
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 181,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 174,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.StoreupVO",
+    "securityMethods": [
+      "setName",
+      "setTablename",
+      "setPicture",
+      "setRefid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "name",
+      "refid",
+      "tablename",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "name": [
+        {
+          "methodName": "getName",
+          "lineNumber": 94,
+          "isWrite": false
+        },
+        {
+          "methodName": "setName",
+          "lineNumber": 87,
+          "isWrite": true
+        }
+      ],
+      "refid": [
+        {
+          "methodName": "getRefid",
+          "lineNumber": 62,
+          "isWrite": false
+        },
+        {
+          "methodName": "setRefid",
+          "lineNumber": 55,
+          "isWrite": true
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "setTablename",
+          "lineNumber": 71,
+          "isWrite": true
+        },
+        {
+          "methodName": "getTablename",
+          "lineNumber": 78,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 110,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 103,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.ChatEntity",
+    "securityMethods": [
+      "setAdminid",
+      "setId",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "adminid",
+      "id",
+      "userid"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "adminid": [
+        {
+          "methodName": "getAdminid",
+          "lineNumber": 125,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 97,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 113,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.utils.JQPageInfo",
+    "securityMethods": [
+      "setSidx"
+    ],
+    "sensitiveFields": [
+      "sidx"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "sidx": [
+        {
+          "methodName": "setSidx",
+          "lineNumber": 35,
+          "isWrite": true
+        },
+        {
+          "methodName": "getSidx",
+          "lineNumber": 31,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.OrdersEntity",
+    "securityMethods": [
+      "setTablename",
+      "setPicture",
+      "setAddress",
+      "setGoodid",
+      "setGoodname",
+      "setId",
+      "setOrderid",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "address",
+      "goodname",
+      "orderid",
+      "goodid",
+      "id",
+      "tablename",
+      "userid",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "address": [
+        {
+          "methodName": "getAddress",
+          "lineNumber": 323,
+          "isWrite": false
+        }
+      ],
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 215,
+          "isWrite": false
+        }
+      ],
+      "orderid": [
+        {
+          "methodName": "getOrderid",
+          "lineNumber": 167,
+          "isWrite": false
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 203,
+          "isWrite": false
+        }
+      ],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 151,
+          "isWrite": false
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "getTablename",
+          "lineNumber": 179,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 191,
+          "isWrite": false
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 227,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.DiscussshangpinxinxiVO",
+    "securityMethods": [
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "userid"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 56,
+          "isWrite": false
+        },
+        {
+          "methodName": "setUserid",
+          "lineNumber": 49,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.NewsVO",
+    "securityMethods": [
+      "setPicture"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 72,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 65,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.ShangpinfenleiEntity",
+    "securityMethods": [
+      "setId"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "id": [
+        {
+          "methodName": "getId",
+          "lineNumber": 73,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.model.ShangpinpingjiaModel",
+    "securityMethods": [
+      "setLianxidianhua",
+      "setYonghuming"
+    ],
+    "sensitiveFields": [
+      "yonghuming",
+      "serialVersionUID",
+      "lianxidianhua"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "yonghuming": [
+        {
+          "methodName": "getYonghuming",
+          "lineNumber": 219,
+          "isWrite": false
+        },
+        {
+          "methodName": "setYonghuming",
+          "lineNumber": 212,
+          "isWrite": true
+        }
+      ],
+      "serialVersionUID": [],
+      "lianxidianhua": [
+        {
+          "methodName": "setLianxidianhua",
+          "lineNumber": 228,
+          "isWrite": true
+        },
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 235,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.utils.R",
+    "securityMethods": [
+      "error",
+      "put"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.model.CartModel",
+    "securityMethods": [
+      "setPicture",
+      "setGoodid",
+      "setGoodname",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "goodname",
+      "goodid",
+      "userid",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 113,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodname",
+          "lineNumber": 106,
+          "isWrite": true
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "setGoodid",
+          "lineNumber": 90,
+          "isWrite": true
+        },
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 97,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 81,
+          "isWrite": false
+        },
+        {
+          "methodName": "setUserid",
+          "lineNumber": 74,
+          "isWrite": true
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "getPicture",
+          "lineNumber": 129,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPicture",
+          "lineNumber": 122,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.utils.SQLFilter",
+    "securityMethods": [
+      "sqlInject"
+    ],
+    "sensitiveFields": [],
+    "sensitiveLocals": [
+      {
+        "variableName": "keywords",
+        "methodName": "sqlInject",
+        "lineNumber": 31
+      },
+      {
+        "variableName": "keyword",
+        "methodName": "sqlInject",
+        "lineNumber": 34
+      }
+    ],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {}
+  },
+  {
+    "className": "com.utils.BaiduUtil",
+    "securityMethods": [
+      "getAuth",
+      "getCityByLonLat"
+    ],
+    "sensitiveFields": [],
+    "sensitiveLocals": [
+      {
+        "variableName": "authHost",
+        "methodName": "getAuth",
+        "lineNumber": 55
+      },
+      {
+        "variableName": "access_token",
+        "methodName": "getAuth",
+        "lineNumber": 87
+      },
+      {
+        "variableName": "getAccessTokenUrl",
+        "methodName": "getAuth",
+        "lineNumber": 56
+      },
+      {
+        "variableName": "location",
+        "methodName": "getCityByLonLat",
+        "lineNumber": 28
+      },
+      {
+        "variableName": "key",
+        "methodName": "getAuth",
+        "lineNumber": 72
+      }
+    ],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {}
+  },
+  {
+    "className": "com.entity.vo.CartVO",
+    "securityMethods": [
+      "setPicture",
+      "setGoodid",
+      "setGoodname",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "goodname",
+      "goodid",
+      "userid",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 112,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodname",
+          "lineNumber": 105,
+          "isWrite": true
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "setGoodid",
+          "lineNumber": 89,
+          "isWrite": true
+        },
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 96,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 80,
+          "isWrite": false
+        },
+        {
+          "methodName": "setUserid",
+          "lineNumber": 73,
+          "isWrite": true
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "setPicture",
+          "lineNumber": 121,
+          "isWrite": true
+        },
+        {
+          "methodName": "getPicture",
+          "lineNumber": 128,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.controller.FileController",
+    "securityMethods": [
+      "download",
+      "upload"
+    ],
+    "sensitiveFields": [],
+    "sensitiveLocals": [
+      {
+        "variableName": "path",
+        "methodName": "upload",
+        "lineNumber": 61
+      },
+      {
+        "variableName": "path",
+        "methodName": "download",
+        "lineNumber": 97
+      },
+      {
+        "variableName": "fileName",
+        "methodName": "upload",
+        "lineNumber": 71
+      },
+      {
+        "variableName": "fileExt",
+        "methodName": "upload",
+        "lineNumber": 59
+      },
+      {
+        "variableName": "file",
+        "methodName": "download",
+        "lineNumber": 107
+      },
+      {
+        "variableName": "upload",
+        "methodName": "upload",
+        "lineNumber": 66
+      },
+      {
+        "variableName": "upload",
+        "methodName": "download",
+        "lineNumber": 102
+      }
+    ],
+    "logLocations": [
+      {
+        "className": "com.controller.FileController",
+        "methodName": "upload",
+        "line": 60
+      },
+      {
+        "className": "com.controller.FileController",
+        "methodName": "upload",
+        "line": 65
+      },
+      {
+        "className": "com.controller.FileController",
+        "methodName": "download",
+        "line": 101
+      },
+      {
+        "className": "com.controller.FileController",
+        "methodName": "upload",
+        "line": 70
+      },
+      {
+        "className": "com.controller.FileController",
+        "methodName": "download",
+        "line": 106
+      },
+      {
+        "className": "com.controller.FileController",
+        "methodName": "upload",
+        "line": 65
+      },
+      {
+        "className": "com.controller.FileController",
+        "methodName": "download",
+        "line": 101
+      },
+      {
+        "className": "com.controller.FileController",
+        "methodName": "upload",
+        "line": 70
+      },
+      {
+        "className": "com.controller.FileController",
+        "methodName": "download",
+        "line": 106
+      },
+      {
+        "className": "com.controller.FileController",
+        "methodName": "download",
+        "line": 115
+      }
+    ],
+    "dataFlowPath": [
+      "fileExt -> com.controller.FileController.log.info(\"websocket handshake success,fileExt:{}\", fileExt)",
+      "path -> com.controller.FileController.log.info(\"websocket handshake success,path:{}\", path)",
+      "upload -> com.controller.FileController.log.info(\"websocket handshake success,upload:{}\", upload)",
+      "file -> com.controller.FileController.log.info(\"websocket handshake success,file:{}\", new org.springframework.http.ResponseEntity<byte[]>(org.apache.commons.io.FileUtils.readFileToByteArray(file), headers, org.springframework.http.HttpStatus.CREATED))"
+    ],
+    "dotGraph": "digraph com_controller_FileController {\n  n0 [label=\"fileExt -> com.controller.FileController.log.info(\\\"websocket handshake success,fileExt:{}\\\", fileExt)\"];\n  n1 [label=\"path -> com.controller.FileController.log.info(\\\"websocket handshake success,path:{}\\\", path)\"];\n  n2 [label=\"upload -> com.controller.FileController.log.info(\\\"websocket handshake success,upload:{}\\\", upload)\"];\n  n3 [label=\"file -> com.controller.FileController.log.info(\\\"websocket handshake success,file:{}\\\", new org.springframework.http.ResponseEntity<byte[]>(org.apache.commons.io.FileUtils.readFileToByteArray(file), headers, org.springframework.http.HttpStatus.CREATED))\"];\n  n0 -> n1;\n  n1 -> n2;\n  n2 -> n3;\n}\n",
+    "fieldUsages": {}
+  },
+  {
+    "className": "com.entity.vo.ChatVO",
+    "securityMethods": [
+      "setAdminid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "adminid"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "adminid": [
+        {
+          "methodName": "setAdminid",
+          "lineNumber": 55,
+          "isWrite": true
+        },
+        {
+          "methodName": "getAdminid",
+          "lineNumber": 62,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.service.impl.TokenServiceImpl",
+    "securityMethods": [
+      "generateToken",
+      "getTokenEntity",
+      "queryPage"
+    ],
+    "sensitiveFields": [],
+    "sensitiveLocals": [
+      {
+        "variableName": "tokenEntity",
+        "methodName": "generateToken",
+        "lineNumber": 56
+      },
+      {
+        "variableName": "token",
+        "methodName": "generateToken",
+        "lineNumber": 57
+      },
+      {
+        "variableName": "tokenEntity",
+        "methodName": "getTokenEntity",
+        "lineNumber": 73
+      }
+    ],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {}
+  },
+  {
+    "className": "com.utils.ValidatorUtils",
+    "securityMethods": [
+      "validateEntity"
+    ],
+    "sensitiveFields": [
+      "validator"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "validator": [
+        {
+          "methodName": "static_block",
+          "lineNumber": 20,
+          "isWrite": true
+        },
+        {
+          "methodName": "validateEntity",
+          "lineNumber": 31,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.utils.PageUtils",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.utils.Query",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.vo.ShangpinpingjiaVO",
+    "securityMethods": [
+      "setLianxidianhua",
+      "setYonghuming"
+    ],
+    "sensitiveFields": [
+      "yonghuming",
+      "serialVersionUID",
+      "lianxidianhua"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "yonghuming": [
+        {
+          "methodName": "getYonghuming",
+          "lineNumber": 217,
+          "isWrite": false
+        },
+        {
+          "methodName": "setYonghuming",
+          "lineNumber": 210,
+          "isWrite": true
+        }
+      ],
+      "serialVersionUID": [],
+      "lianxidianhua": [
+        {
+          "methodName": "getLianxidianhua",
+          "lineNumber": 233,
+          "isWrite": false
+        },
+        {
+          "methodName": "setLianxidianhua",
+          "lineNumber": 226,
+          "isWrite": true
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.controller.CartController",
+    "securityMethods": [
+      "detail",
+      "remindCount",
+      "delete",
+      "info"
+    ],
+    "sensitiveFields": [],
+    "sensitiveLocals": [
+      {
+        "variableName": "userId",
+        "methodName": "page",
+        "lineNumber": 59
+      }
+    ],
+    "logLocations": [
+      {
+        "className": "com.controller.CartController",
+        "methodName": "page",
+        "line": 61
+      }
+    ],
+    "dataFlowPath": [
+      "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+    ],
+    "dotGraph": "digraph com_controller_CartController {\n  n0 [label=\"userId -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,userId:{}\\\", userId)// 打印userID\r\\n\"];\n}\n",
+    "fieldUsages": {}
+  },
+  {
+    "className": "com.entity.vo.ShangpinxinxiVO",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.controller.UserController",
+    "securityMethods": [
+      "logout",
+      "login",
+      "delete",
+      "resetPass",
+      "info",
+      "register"
+    ],
+    "sensitiveFields": [
+      "tokenService"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "id",
+        "methodName": "getCurrUser",
+        "lineNumber": 134
+      },
+      {
+        "variableName": "token",
+        "methodName": "login",
+        "lineNumber": 58
+      }
+    ],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "tokenService": [
+        {
+          "methodName": "login",
+          "lineNumber": 58,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.controller.ChatController",
+    "securityMethods": [
+      "detail",
+      "remindCount",
+      "delete",
+      "info"
+    ],
+    "sensitiveFields": [],
+    "sensitiveLocals": [
+      {
+        "variableName": "userId",
+        "methodName": "list",
+        "lineNumber": 76
+      },
+      {
+        "variableName": "userId",
+        "methodName": "page",
+        "lineNumber": 60
+      }
+    ],
+    "logLocations": [
+      {
+        "className": "com.controller.ChatController",
+        "methodName": "page",
+        "line": 62
+      },
+      {
+        "className": "com.controller.ChatController",
+        "methodName": "list",
+        "line": 78
+      },
+      {
+        "className": "com.controller.ChatController",
+        "methodName": "page",
+        "line": 62
+      },
+      {
+        "className": "com.controller.ChatController",
+        "methodName": "list",
+        "line": 78
+      }
+    ],
+    "dataFlowPath": [
+      "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+    ],
+    "dotGraph": "digraph com_controller_ChatController {\n  n0 [label=\"userId -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,userId:{}\\\", userId)// 打印userID\r\\n\"];\n}\n",
+    "fieldUsages": {}
+  },
+  {
+    "className": "com.entity.vo.OrdersVO",
+    "securityMethods": [
+      "setTablename",
+      "setPicture",
+      "setAddress",
+      "setGoodid",
+      "setGoodname",
+      "setUserid"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "address",
+      "goodname",
+      "goodid",
+      "tablename",
+      "userid",
+      "picture"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "address": [
+        {
+          "methodName": "setAddress",
+          "lineNumber": 301,
+          "isWrite": true
+        },
+        {
+          "methodName": "getAddress",
+          "lineNumber": 308,
+          "isWrite": false
+        }
+      ],
+      "goodname": [
+        {
+          "methodName": "getGoodname",
+          "lineNumber": 164,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodname",
+          "lineNumber": 157,
+          "isWrite": true
+        }
+      ],
+      "goodid": [
+        {
+          "methodName": "getGoodid",
+          "lineNumber": 148,
+          "isWrite": false
+        },
+        {
+          "methodName": "setGoodid",
+          "lineNumber": 141,
+          "isWrite": true
+        }
+      ],
+      "tablename": [
+        {
+          "methodName": "setTablename",
+          "lineNumber": 109,
+          "isWrite": true
+        },
+        {
+          "methodName": "getTablename",
+          "lineNumber": 116,
+          "isWrite": false
+        }
+      ],
+      "userid": [
+        {
+          "methodName": "getUserid",
+          "lineNumber": 132,
+          "isWrite": false
+        },
+        {
+          "methodName": "setUserid",
+          "lineNumber": 125,
+          "isWrite": true
+        }
+      ],
+      "picture": [
+        {
+          "methodName": "setPicture",
+          "lineNumber": 173,
+          "isWrite": true
+        },
+        {
+          "methodName": "getPicture",
+          "lineNumber": 180,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.entity.vo.ShangpinfenleiVO",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.view.ShangpinxinxiView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.view.StoreupView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.view.YonghuView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.view.ShangpinfenleiView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.view.ShangpinpingjiaView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.view.OrdersView",
+    "securityMethods": [],
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": []
+    }
+  },
+  {
+    "className": "com.entity.vo.AddressVO",
+    "securityMethods": [
+      "setName",
+      "setAddress",
+      "setPhone"
+    ],
+    "sensitiveFields": [
+      "serialVersionUID",
+      "address",
+      "phone",
+      "name"
+    ],
+    "sensitiveLocals": [],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "serialVersionUID": [],
+      "address": [
+        {
+          "methodName": "getAddress",
+          "lineNumber": 62,
+          "isWrite": false
+        },
+        {
+          "methodName": "setAddress",
+          "lineNumber": 55,
+          "isWrite": true
+        }
+      ],
+      "phone": [
+        {
+          "methodName": "getPhone",
+          "lineNumber": 94,
+          "isWrite": false
+        },
+        {
+          "methodName": "setPhone",
+          "lineNumber": 87,
+          "isWrite": true
+        }
+      ],
+      "name": [
+        {
+          "methodName": "setName",
+          "lineNumber": 71,
+          "isWrite": true
+        },
+        {
+          "methodName": "getName",
+          "lineNumber": 78,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.utils.MPUtil",
+    "securityMethods": [],
+    "sensitiveFields": [],
+    "sensitiveLocals": [
+      {
+        "variableName": "entry",
+        "methodName": "genLike",
+        "lineNumber": 51
+      },
+      {
+        "variableName": "key",
+        "methodName": "between",
+        "lineNumber": 103
+      },
+      {
+        "variableName": "key",
+        "methodName": "genLikeOrEq",
+        "lineNumber": 71
+      },
+      {
+        "variableName": "entry",
+        "methodName": "genLikeOrEq",
+        "lineNumber": 70
+      },
+      {
+        "variableName": "entry",
+        "methodName": "genEq",
+        "lineNumber": 93
+      },
+      {
+        "variableName": "key",
+        "methodName": "genLike",
+        "lineNumber": 52
+      },
+      {
+        "variableName": "columnName",
+        "methodName": "between",
+        "lineNumber": 104
+      },
+      {
+        "variableName": "entry",
+        "methodName": "camelToUnderlineMap",
+        "lineNumber": 170
+      },
+      {
+        "variableName": "key",
+        "methodName": "camelToUnderlineMap",
+        "lineNumber": 171
+      },
+      {
+        "variableName": "newKey",
+        "methodName": "camelToUnderlineMap",
+        "lineNumber": 172
+      },
+      {
+        "variableName": "key",
+        "methodName": "genEq",
+        "lineNumber": 94
+      }
+    ],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {}
+  },
+  {
+    "className": "com.controller.CommonController",
+    "securityMethods": [
+      "matchFace",
+      "sh",
+      "getFollowByOption",
+      "getOption",
+      "remindCount",
+      "value",
+      "group",
+      "cal"
+    ],
+    "sensitiveFields": [
+      "BAIDU_DITU_AK"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "file2",
+        "methodName": "matchFace",
+        "lineNumber": 100
+      },
+      {
+        "variableName": "img1",
+        "methodName": "matchFace",
+        "lineNumber": 101
+      },
+      {
+        "variableName": "token",
+        "methodName": "matchFace",
+        "lineNumber": 86
+      },
+      {
+        "variableName": "img2",
+        "methodName": "matchFace",
+        "lineNumber": 102
+      },
+      {
+        "variableName": "SecretKey",
+        "methodName": "matchFace",
+        "lineNumber": 85
+      },
+      {
+        "variableName": "APIKey",
+        "methodName": "matchFace",
+        "lineNumber": 84
+      },
+      {
+        "variableName": "file1",
+        "methodName": "matchFace",
+        "lineNumber": 99
+      }
+    ],
+    "logLocations": [
+      {
+        "className": "com.controller.CommonController",
+        "methodName": "sh",
+        "line": 173
+      },
+      {
+        "className": "com.controller.CommonController",
+        "methodName": "remindCount",
+        "line": 213
+      },
+      {
+        "className": "com.controller.CommonController",
+        "methodName": "sh",
+        "line": 173
+      },
+      {
+        "className": "com.controller.CommonController",
+        "methodName": "remindCount",
+        "line": 213
+      },
+      {
+        "className": "com.controller.CommonController",
+        "methodName": "location",
+        "line": 63
+      },
+      {
+        "className": "com.controller.CommonController",
+        "methodName": "location",
+        "line": 63
+      },
+      {
+        "className": "com.controller.CommonController",
+        "methodName": "matchFace",
+        "line": 87
+      },
+      {
+        "className": "com.controller.CommonController",
+        "methodName": "matchFace",
+        "line": 88
+      },
+      {
+        "className": "com.controller.CommonController",
+        "methodName": "matchFace",
+        "line": 89
+      }
+    ],
+    "dataFlowPath": [
+      "sh -> com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+      "remindCount -> com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+      "BAIDU_DITU_AK -> com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)",
+      "BAIDU_DITU_AK -> field_read:BAIDU_DITU_AK -> com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)",
+      "APIKey -> com.controller.CommonController.log.info(\"websocket handshake success,APIKey:{}\", APIKey)",
+      "SecretKey -> // 日志输出APIKey\r\ncom.controller.CommonController.log.info(\"websocket handshake success,SecretKey:{}\", SecretKey)",
+      "token -> // 日志输出SecretKey\r\ncom.controller.CommonController.log.info(\"websocket handshake success,token:{}\", token)"
+    ],
+    "dotGraph": "digraph com_controller_CommonController {\n  n0 [label=\"sh -> com.controller.CommonController.log.info(\\\"websocket handshake success,map:{}\\\", map)\"];\n  n1 [label=\"remindCount -> com.controller.CommonController.log.info(\\\"websocket handshake success,map:{}\\\", map)\"];\n  n2 [label=\"BAIDU_DITU_AK -> com.controller.CommonController.log.info(\\\"websocket handshake success,BAIDU_DITU_AK:{}\\\", com.controller.CommonController.BAIDU_DITU_AK)\"];\n  n3 [label=\"BAIDU_DITU_AK -> field_read:BAIDU_DITU_AK -> com.controller.CommonController.log.info(\\\"websocket handshake success,BAIDU_DITU_AK:{}\\\", com.controller.CommonController.BAIDU_DITU_AK)\"];\n  n4 [label=\"APIKey -> com.controller.CommonController.log.info(\\\"websocket handshake success,APIKey:{}\\\", APIKey)\"];\n  n5 [label=\"SecretKey -> // 日志输出APIKey\r\\ncom.controller.CommonController.log.info(\\\"websocket handshake success,SecretKey:{}\\\", SecretKey)\"];\n  n6 [label=\"token -> // 日志输出SecretKey\r\\ncom.controller.CommonController.log.info(\\\"websocket handshake success,token:{}\\\", token)\"];\n  n0 -> n1;\n  n1 -> n2;\n  n2 -> n3;\n  n3 -> n4;\n  n4 -> n5;\n  n5 -> n6;\n}\n",
+    "fieldUsages": {
+      "BAIDU_DITU_AK": [
+        {
+          "methodName": "location",
+          "lineNumber": 62,
+          "isWrite": true
+        },
+        {
+          "methodName": "location",
+          "lineNumber": 63,
+          "isWrite": false
+        },
+        {
+          "methodName": "location",
+          "lineNumber": 68,
+          "isWrite": false
+        },
+        {
+          "methodName": "location",
+          "lineNumber": 61,
+          "isWrite": false
+        },
+        {
+          "methodName": "location",
+          "lineNumber": 64,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.controller.AddressController",
+    "securityMethods": [
+      "add",
+      "query",
+      "save",
+      "update",
+      "page",
+      "detail",
+      "list",
+      "remindCount",
+      "delete",
+      "info"
+    ],
+    "sensitiveFields": [
+      "addressService"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "userId",
+        "methodName": "list",
+        "lineNumber": 75
+      },
+      {
+        "variableName": "userId",
+        "methodName": "save",
+        "lineNumber": 140
+      },
+      {
+        "variableName": "userId",
+        "methodName": "add",
+        "lineNumber": 159
+      },
+      {
+        "variableName": "address",
+        "methodName": "info",
+        "lineNumber": 114
+      },
+      {
+        "variableName": "address",
+        "methodName": "detail",
+        "lineNumber": 124
+      },
+      {
+        "variableName": "address",
+        "methodName": "defaultAddress",
+        "lineNumber": 189
+      },
+      {
+        "variableName": "addressView",
+        "methodName": "query",
+        "lineNumber": 104
+      },
+      {
+        "variableName": "userId",
+        "methodName": "page",
+        "lineNumber": 59
+      }
+    ],
+    "logLocations": [
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 147
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 166
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 147
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 166
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 147
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 166
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 147
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 166
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 147
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 166
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 147
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 166
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 147
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 166
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "page",
+        "line": 61
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "page",
+        "line": 61
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "page",
+        "line": 61
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "page",
+        "line": 61
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "list",
+        "line": 77
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "list",
+        "line": 77
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "list",
+        "line": 77
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "list",
+        "line": 77
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "info",
+        "line": 115
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "info",
+        "line": 115
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 145
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "detail",
+        "line": 125
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "detail",
+        "line": 125
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 145
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 145
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 164
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 164
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 164
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "defaultAddress",
+        "line": 190
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "defaultAddress",
+        "line": 190
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "save",
+        "line": 145
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "query",
+        "line": 105
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "add",
+        "line": 164
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "info",
+        "line": 115
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "detail",
+        "line": 125
+      },
+      {
+        "className": "com.controller.AddressController",
+        "methodName": "defaultAddress",
+        "line": 190
+      }
+    ],
+    "dataFlowPath": [
+      "page -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+      "list -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+      "query -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+      "add -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+      "save -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+      "update -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+      "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n",
+      "address -> cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+      "userId -> cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)",
+      "addressView -> cn.hutool.core.lang.Console.print(\"websocket handshake success,addressView:{}\", addressView)"
+    ],
+    "dotGraph": "digraph com_controller_AddressController {\n  n0 [label=\"page -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,address:{}\\\", address)\"];\n  n1 [label=\"list -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,address:{}\\\", address)\"];\n  n2 [label=\"query -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,address:{}\\\", address)\"];\n  n3 [label=\"add -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,address:{}\\\", address)\"];\n  n4 [label=\"save -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,address:{}\\\", address)\"];\n  n5 [label=\"update -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,address:{}\\\", address)\"];\n  n6 [label=\"userId -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,userId:{}\\\", userId)// 打印userID\r\\n\"];\n  n7 [label=\"address -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,address:{}\\\", address)\"];\n  n8 [label=\"userId -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,userId:{}\\\", userId)\"];\n  n9 [label=\"addressView -> cn.hutool.core.lang.Console.print(\\\"websocket handshake success,addressView:{}\\\", addressView)\"];\n  n0 -> n1;\n  n1 -> n2;\n  n2 -> n3;\n  n3 -> n4;\n  n4 -> n5;\n  n5 -> n6;\n  n6 -> n7;\n  n7 -> n8;\n  n8 -> n9;\n}\n",
+    "fieldUsages": {
+      "addressService": [
+        {
+          "methodName": "remindCount",
+          "lineNumber": 245,
+          "isWrite": false
+        },
+        {
+          "methodName": "update",
+          "lineNumber": 177,
+          "isWrite": false
+        },
+        {
+          "methodName": "page",
+          "lineNumber": 64,
+          "isWrite": false
+        },
+        {
+          "methodName": "add",
+          "lineNumber": 165,
+          "isWrite": false
+        },
+        {
+          "methodName": "update",
+          "lineNumber": 179,
+          "isWrite": false
+        },
+        {
+          "methodName": "list",
+          "lineNumber": 93,
+          "isWrite": false
+        },
+        {
+          "methodName": "list",
+          "lineNumber": 80,
+          "isWrite": false
+        },
+        {
+          "methodName": "save",
+          "lineNumber": 142,
+          "isWrite": false
+        },
+        {
+          "methodName": "save",
+          "lineNumber": 146,
+          "isWrite": false
+        },
+        {
+          "methodName": "detail",
+          "lineNumber": 124,
+          "isWrite": false
+        },
+        {
+          "methodName": "defaultAddress",
+          "lineNumber": 189,
+          "isWrite": false
+        },
+        {
+          "methodName": "delete",
+          "lineNumber": 199,
+          "isWrite": false
+        },
+        {
+          "methodName": "query",
+          "lineNumber": 104,
+          "isWrite": false
+        },
+        {
+          "methodName": "add",
+          "lineNumber": 161,
+          "isWrite": false
+        },
+        {
+          "methodName": "info",
+          "lineNumber": 114,
+          "isWrite": false
+        }
+      ]
+    }
+  },
+  {
+    "className": "com.controller.YonghuController",
+    "securityMethods": [
+      "add",
+      "query",
+      "save",
+      "update",
+      "list",
+      "login",
+      "remindCount",
+      "delete",
+      "logout",
+      "page",
+      "detail",
+      "resetPass",
+      "register",
+      "info"
+    ],
+    "sensitiveFields": [
+      "yonghuService",
+      "tokenService"
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "uId",
+        "methodName": "register",
+        "lineNumber": 80
+      },
+      {
+        "variableName": "yonghu",
+        "methodName": "detail",
+        "lineNumber": 177
+      },
+      {
+        "variableName": "id",
+        "methodName": "getCurrUser",
+        "lineNumber": 100
+      },
+      {
+        "variableName": "token",
+        "methodName": "login",
+        "lineNumber": 65
+      },
+      {
+        "variableName": "yonghu",
+        "methodName": "info",
+        "lineNumber": 168
+      },
+      {
+        "variableName": "yonghuView",
+        "methodName": "query",
+        "lineNumber": 159
+      }
+    ],
+    "logLocations": [],
+    "dataFlowPath": [],
+    "fieldUsages": {
+      "yonghuService": [
+        {
+          "methodName": "detail",
+          "lineNumber": 177,
+          "isWrite": false
+        },
+        {
+          "methodName": "login",
+          "lineNumber": 60,
+          "isWrite": false
+        },
+        {
+          "methodName": "resetPass",
+          "lineNumber": 116,
+          "isWrite": false
+        },
+        {
+          "methodName": "delete",
+          "lineNumber": 232,
+          "isWrite": false
+        },
+        {
+          "methodName": "list",
+          "lineNumber": 149,
+          "isWrite": false
+        },
+        {
+          "methodName": "save",
+          "lineNumber": 191,
+          "isWrite": false
+        },
+        {
+          "methodName": "page",
+          "lineNumber": 127,
+          "isWrite": false
+        },
+        {
+          "methodName": "resetPass",
+          "lineNumber": 111,
+          "isWrite": false
+        },
+        {
+          "methodName": "query",
+          "lineNumber": 159,
+          "isWrite": false
+        },
+        {
+          "methodName": "add",
+          "lineNumber": 212,
+          "isWrite": false
+        },
+        {
+          "methodName": "remindCount",
+          "lineNumber": 275,
+          "isWrite": false
+        },
+        {
+          "methodName": "info",
+          "lineNumber": 168,
+          "isWrite": false
+        },
+        {
+          "methodName": "register",
+          "lineNumber": 76,
+          "isWrite": false
+        },
+        {
+          "methodName": "add",
+          "lineNumber": 207,
+          "isWrite": false
+        },
+        {
+          "methodName": "register",
+          "lineNumber": 82,
+          "isWrite": false
+        },
+        {
+          "methodName": "list",
+          "lineNumber": 138,
+          "isWrite": false
+        },
+        {
+          "methodName": "save",
+          "lineNumber": 196,
+          "isWrite": false
+        },
+        {
+          "methodName": "getCurrUser",
+          "lineNumber": 101,
+          "isWrite": false
+        },
+        {
+          "methodName": "update",
+          "lineNumber": 222,
+          "isWrite": false
+        }
+      ],
+      "tokenService": [
+        {
+          "methodName": "login",
+          "lineNumber": 65,
+          "isWrite": false
+        }
+      ]
+    }
+  }
+]

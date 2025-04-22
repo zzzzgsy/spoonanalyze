@@ -1,0 +1,126 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LogDetector",
+            "request": "launch",
+            "mainClass": "com.example.detector.LogDetector",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "EnhancedLogDetector",
+            "request": "launch",
+            "mainClass": "com.example.detector.EnhancedLogDetector",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "Analyzer",
+            "request": "launch",
+            "mainClass": "com.example.analyzer.Analyzer",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "SensitiveDetector",
+            "request": "launch",
+            "mainClass": "com.example.detector.SensitiveDetector",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "EnhancedAnalyzer",
+            "request": "launch",
+            "mainClass": "com.example.analyzer.EnhancedAnalyzer",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "EnhancedSensitiveInfoAnalyzer",
+            "request": "launch",
+            "mainClass": "com.example.EnhancedSensitiveInfoAnalyzer",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "LogEnhancement",
+            "request": "launch",
+            "mainClass": "com.example.LogEnhancement",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "Analyzer",
+            "request": "launch",
+            "mainClass": "com.example.Analyzer",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "LogDetector",
+            "request": "launch",
+            "mainClass": "com.example.LogDetector",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "SensitiveDetector",
+            "request": "launch",
+            "mainClass": "com.example.SensitiveDetector",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "DetectLogging",
+            "request": "launch",
+            "mainClass": "com.example.DetectLogging",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "SensitiveLogTracer",
+            "request": "launch",
+            "mainClass": "com.example.SensitiveLogTracer",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "TaintTraceAnalyzer",
+            "request": "launch",
+            "mainClass": "com.example.TaintTraceAnalyzer",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "SensitiveClassDetector",
+            "request": "launch",
+            "mainClass": "com.example.SensitiveClassDetector",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "DetectLoggingMain",
+            "request": "launch",
+            "mainClass": "com.example.DetectLoggingMain",
+            "projectName": "spoonanalyze"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "LogAnalysisMain",
+            "request": "launch",
+            "mainClass": "com.example.LogAnalysisMain",
+            "projectName": "spoonanalyze"
+        }
+    ]
+}

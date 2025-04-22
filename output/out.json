@@ -1,0 +1,740 @@
+[
+  {
+    "className": "com.controller.AddressController",
+    "sensitiveFields": [
+      "addressService"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.controller.CommonController",
+    "sensitiveFields": [
+      "BAIDU_DITU_AK"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.controller.UserController",
+    "sensitiveFields": [
+      "tokenService"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.controller.YonghuController",
+    "sensitiveFields": [
+      "yonghuService",
+      "tokenService"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.AddressEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "userid",
+      "address",
+      "name",
+      "phone"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.CartEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "tablename",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.ChatEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "userid",
+      "adminid"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.ConfigEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "name"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.DiscussshangpinxinxiEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "refid",
+      "userid"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.EIException",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "code"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.NewsEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "picture"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.OrdersEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "orderid",
+      "tablename",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture",
+      "address"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.ShangpinfenleiEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.ShangpinpingjiaEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "yonghuming",
+      "lianxidianhua"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.ShangpinxinxiEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.StoreupEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "userid",
+      "refid",
+      "tablename",
+      "name",
+      "picture"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.TokenEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "userid",
+      "username",
+      "tablename",
+      "token"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.UserEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "username",
+      "password"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.YonghuEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "yonghuming",
+      "lianxidianhua"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.AddressModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "address",
+      "name",
+      "phone"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.CartModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.ChatModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "adminid"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.DiscussshangpinxinxiModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "userid"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.NewsModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "picture"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.OrdersModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "tablename",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture",
+      "address"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.ShangpinfenleiModel",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.ShangpinpingjiaModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "yonghuming",
+      "lianxidianhua"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.ShangpinxinxiModel",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.StoreupModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "refid",
+      "tablename",
+      "name",
+      "picture"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.model.YonghuModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "lianxidianhua"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.AddressView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.CartView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.ChatView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.DiscussshangpinxinxiView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.NewsView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.OrdersView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.ShangpinfenleiView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.ShangpinpingjiaView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.ShangpinxinxiView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.StoreupView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.view.YonghuView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.AddressVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "address",
+      "name",
+      "phone"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.CartVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.ChatVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "adminid"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.DiscussshangpinxinxiVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "userid"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.NewsVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "picture"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.OrdersVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "tablename",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture",
+      "address"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.ShangpinfenleiVO",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.ShangpinpingjiaVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "yonghuming",
+      "lianxidianhua"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.ShangpinxinxiVO",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.StoreupVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "refid",
+      "tablename",
+      "name",
+      "picture"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.entity.vo.YonghuVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "lianxidianhua"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.interceptor.AuthorizationInterceptor",
+    "sensitiveFields": [
+      "LOGIN_TOKEN_KEY",
+      "tokenService"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.utils.JQPageInfo",
+    "sensitiveFields": [
+      "sidx"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.utils.PageUtils",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.utils.Query",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.utils.R",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  },
+  {
+    "className": "com.utils.ValidatorUtils",
+    "sensitiveFields": [
+      "validator"
+    ],
+    "securityMethods": [],
+    "printedSensitiveFields": [],
+    "printedSecurityMethods": [],
+    "dataFlowPath": [],
+    "logLocations": []
+  }
+]

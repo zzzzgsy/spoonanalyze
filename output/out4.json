@@ -1,0 +1,1740 @@
+[
+  {
+    "className": "com.controller.AddressController",
+    "sensitiveFields": [
+      "addressService"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "add"
+      },
+      {
+        "methodName": "delete"
+      },
+      {
+        "methodName": "detail"
+      },
+      {
+        "methodName": "info"
+      },
+      {
+        "methodName": "list"
+      },
+      {
+        "methodName": "list"
+      },
+      {
+        "methodName": "page"
+      },
+      {
+        "methodName": "query"
+      },
+      {
+        "methodName": "remindCount"
+      },
+      {
+        "methodName": "save"
+      },
+      {
+        "methodName": "update"
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "userId",
+        "methodName": "add",
+        "lineNumber": 159
+      },
+      {
+        "variableName": "address",
+        "methodName": "defaultAddress",
+        "lineNumber": 189
+      },
+      {
+        "variableName": "address",
+        "methodName": "detail",
+        "lineNumber": 124
+      },
+      {
+        "variableName": "address",
+        "methodName": "info",
+        "lineNumber": 114
+      },
+      {
+        "variableName": "userId",
+        "methodName": "list",
+        "lineNumber": 75
+      },
+      {
+        "variableName": "userId",
+        "methodName": "page",
+        "lineNumber": 59
+      },
+      {
+        "variableName": "addressView",
+        "methodName": "query",
+        "lineNumber": 104
+      },
+      {
+        "variableName": "userId",
+        "methodName": "save",
+        "lineNumber": 140
+      }
+    ],
+    "dataFlowPath": [
+      "userId -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n",
+      "address -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+      "address -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+      "address -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+      "userId -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n",
+      "userId -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n",
+      "addressView -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,addressView:{}\", addressView)",
+      "userId -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+    ],
+    "logLocations": [
+      {
+        "methodName": "page",
+        "line": 61
+      },
+      {
+        "methodName": "info",
+        "line": 115
+      },
+      {
+        "methodName": "info",
+        "line": 115
+      },
+      {
+        "methodName": "info",
+        "line": 115
+      },
+      {
+        "methodName": "page",
+        "line": 61
+      },
+      {
+        "methodName": "page",
+        "line": 61
+      },
+      {
+        "methodName": "query",
+        "line": 105
+      },
+      {
+        "methodName": "page",
+        "line": 61
+      }
+    ],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.controller.CartController",
+    "sensitiveFields": [],
+    "securityMethods": [
+      {
+        "methodName": "delete"
+      },
+      {
+        "methodName": "detail"
+      },
+      {
+        "methodName": "info"
+      },
+      {
+        "methodName": "remindCount"
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "userId",
+        "methodName": "page",
+        "lineNumber": 59
+      }
+    ],
+    "dataFlowPath": [
+      "userId -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+    ],
+    "logLocations": [
+      {
+        "methodName": "page",
+        "line": 61
+      }
+    ],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.controller.ChatController",
+    "sensitiveFields": [],
+    "securityMethods": [
+      {
+        "methodName": "delete"
+      },
+      {
+        "methodName": "detail"
+      },
+      {
+        "methodName": "info"
+      },
+      {
+        "methodName": "remindCount"
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "userId",
+        "methodName": "list",
+        "lineNumber": 76
+      },
+      {
+        "variableName": "userId",
+        "methodName": "page",
+        "lineNumber": 60
+      }
+    ],
+    "dataFlowPath": [
+      "userId -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n",
+      "userId -\u003e cn.hutool.core.lang.Console.print(\"websocket handshake success,userId:{}\", userId)// 打印userID\r\n"
+    ],
+    "logLocations": [
+      {
+        "methodName": "page",
+        "line": 62
+      },
+      {
+        "methodName": "page",
+        "line": 62
+      }
+    ],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.controller.CommonController",
+    "sensitiveFields": [
+      "BAIDU_DITU_AK"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "cal"
+      },
+      {
+        "methodName": "getFollowByOption"
+      },
+      {
+        "methodName": "getOption"
+      },
+      {
+        "methodName": "group"
+      },
+      {
+        "methodName": "matchFace"
+      },
+      {
+        "methodName": "remindCount"
+      },
+      {
+        "methodName": "sh"
+      },
+      {
+        "methodName": "value"
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "APIKey",
+        "methodName": "matchFace",
+        "lineNumber": 84
+      },
+      {
+        "variableName": "SecretKey",
+        "methodName": "matchFace",
+        "lineNumber": 85
+      },
+      {
+        "variableName": "token",
+        "methodName": "matchFace",
+        "lineNumber": 86
+      },
+      {
+        "variableName": "file1",
+        "methodName": "matchFace",
+        "lineNumber": 99
+      },
+      {
+        "variableName": "file2",
+        "methodName": "matchFace",
+        "lineNumber": 100
+      },
+      {
+        "variableName": "img1",
+        "methodName": "matchFace",
+        "lineNumber": 101
+      },
+      {
+        "variableName": "img2",
+        "methodName": "matchFace",
+        "lineNumber": 102
+      }
+    ],
+    "dataFlowPath": [
+      "BAIDU_DITU_AK -\u003e com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)",
+      "APIKey -\u003e com.controller.CommonController.log.info(\"websocket handshake success,APIKey:{}\", APIKey)",
+      "SecretKey -\u003e // 日志输出APIKey\r\ncom.controller.CommonController.log.info(\"websocket handshake success,SecretKey:{}\", SecretKey)",
+      "token -\u003e // 日志输出SecretKey\r\ncom.controller.CommonController.log.info(\"websocket handshake success,token:{}\", token)"
+    ],
+    "logLocations": [
+      {
+        "methodName": "location",
+        "line": 63
+      },
+      {
+        "methodName": "matchFace",
+        "line": 87
+      },
+      {
+        "methodName": "matchFace",
+        "line": 88
+      },
+      {
+        "methodName": "matchFace",
+        "line": 89
+      }
+    ],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.controller.FileController",
+    "sensitiveFields": [],
+    "securityMethods": [
+      {
+        "methodName": "download"
+      },
+      {
+        "methodName": "upload"
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "path",
+        "methodName": "download",
+        "lineNumber": 97
+      },
+      {
+        "variableName": "upload",
+        "methodName": "download",
+        "lineNumber": 102
+      },
+      {
+        "variableName": "file",
+        "methodName": "download",
+        "lineNumber": 107
+      },
+      {
+        "variableName": "fileExt",
+        "methodName": "upload",
+        "lineNumber": 59
+      },
+      {
+        "variableName": "path",
+        "methodName": "upload",
+        "lineNumber": 61
+      },
+      {
+        "variableName": "upload",
+        "methodName": "upload",
+        "lineNumber": 66
+      },
+      {
+        "variableName": "fileName",
+        "methodName": "upload",
+        "lineNumber": 71
+      }
+    ],
+    "dataFlowPath": [
+      "path -\u003e com.controller.FileController.log.info(\"websocket handshake success,path:{}\", path)",
+      "upload -\u003e com.controller.FileController.log.info(\"websocket handshake success,upload:{}\", upload)",
+      "fileExt -\u003e com.controller.FileController.log.info(\"websocket handshake success,fileExt:{}\", fileExt)",
+      "path -\u003e com.controller.FileController.log.info(\"websocket handshake success,path:{}\", path)",
+      "upload -\u003e com.controller.FileController.log.info(\"websocket handshake success,upload:{}\", upload)"
+    ],
+    "logLocations": [
+      {
+        "methodName": "upload",
+        "line": 65
+      },
+      {
+        "methodName": "upload",
+        "line": 70
+      },
+      {
+        "methodName": "upload",
+        "line": 60
+      },
+      {
+        "methodName": "upload",
+        "line": 65
+      },
+      {
+        "methodName": "upload",
+        "line": 70
+      }
+    ],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.controller.UserController",
+    "sensitiveFields": [
+      "tokenService"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "delete"
+      },
+      {
+        "methodName": "info"
+      },
+      {
+        "methodName": "login"
+      },
+      {
+        "methodName": "logout"
+      },
+      {
+        "methodName": "register"
+      },
+      {
+        "methodName": "resetPass"
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "id",
+        "methodName": "getCurrUser",
+        "lineNumber": 134
+      },
+      {
+        "variableName": "token",
+        "methodName": "login",
+        "lineNumber": 58
+      }
+    ],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.controller.YonghuController",
+    "sensitiveFields": [
+      "yonghuService",
+      "tokenService"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "add"
+      },
+      {
+        "methodName": "delete"
+      },
+      {
+        "methodName": "detail"
+      },
+      {
+        "methodName": "info"
+      },
+      {
+        "methodName": "list"
+      },
+      {
+        "methodName": "list"
+      },
+      {
+        "methodName": "login"
+      },
+      {
+        "methodName": "logout"
+      },
+      {
+        "methodName": "page"
+      },
+      {
+        "methodName": "query"
+      },
+      {
+        "methodName": "register"
+      },
+      {
+        "methodName": "remindCount"
+      },
+      {
+        "methodName": "resetPass"
+      },
+      {
+        "methodName": "save"
+      },
+      {
+        "methodName": "update"
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "yonghu",
+        "methodName": "detail",
+        "lineNumber": 177
+      },
+      {
+        "variableName": "id",
+        "methodName": "getCurrUser",
+        "lineNumber": 100
+      },
+      {
+        "variableName": "yonghu",
+        "methodName": "info",
+        "lineNumber": 168
+      },
+      {
+        "variableName": "token",
+        "methodName": "login",
+        "lineNumber": 65
+      },
+      {
+        "variableName": "yonghuView",
+        "methodName": "query",
+        "lineNumber": 159
+      },
+      {
+        "variableName": "uId",
+        "methodName": "register",
+        "lineNumber": 80
+      }
+    ],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.AddressEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "userid",
+      "address",
+      "name",
+      "phone"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setAddress"
+      },
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setName"
+      },
+      {
+        "methodName": "setPhone"
+      },
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.CartEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "tablename",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setGoodid"
+      },
+      {
+        "methodName": "setGoodname"
+      },
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setPicture"
+      },
+      {
+        "methodName": "setTablename"
+      },
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.ChatEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "userid",
+      "adminid"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setAdminid"
+      },
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.ConfigEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "name"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setName"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.DiscussshangpinxinxiEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "refid",
+      "userid"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setRefid"
+      },
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.EIException",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "code"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setCode"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.NewsEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "picture"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setPicture"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.OrdersEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "orderid",
+      "tablename",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture",
+      "address"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setAddress"
+      },
+      {
+        "methodName": "setGoodid"
+      },
+      {
+        "methodName": "setGoodname"
+      },
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setOrderid"
+      },
+      {
+        "methodName": "setPicture"
+      },
+      {
+        "methodName": "setTablename"
+      },
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.ShangpinfenleiEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setId"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.ShangpinpingjiaEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "yonghuming",
+      "lianxidianhua"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setLianxidianhua"
+      },
+      {
+        "methodName": "setYonghuming"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.ShangpinxinxiEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setId"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.StoreupEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "userid",
+      "refid",
+      "tablename",
+      "name",
+      "picture"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setName"
+      },
+      {
+        "methodName": "setPicture"
+      },
+      {
+        "methodName": "setRefid"
+      },
+      {
+        "methodName": "setTablename"
+      },
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.TokenEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "userid",
+      "username",
+      "tablename",
+      "token"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "getRole"
+      },
+      {
+        "methodName": "getToken"
+      },
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setRole"
+      },
+      {
+        "methodName": "setTablename"
+      },
+      {
+        "methodName": "setToken"
+      },
+      {
+        "methodName": "setUserid"
+      },
+      {
+        "methodName": "setUsername"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.UserEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "username",
+      "password"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "getRole"
+      },
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setPassword"
+      },
+      {
+        "methodName": "setRole"
+      },
+      {
+        "methodName": "setUsername"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.YonghuEntity",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "id",
+      "yonghuming",
+      "lianxidianhua"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setId"
+      },
+      {
+        "methodName": "setLianxidianhua"
+      },
+      {
+        "methodName": "setYonghuming"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.AddressModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "address",
+      "name",
+      "phone"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setAddress"
+      },
+      {
+        "methodName": "setName"
+      },
+      {
+        "methodName": "setPhone"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.CartModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setGoodid"
+      },
+      {
+        "methodName": "setGoodname"
+      },
+      {
+        "methodName": "setPicture"
+      },
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.ChatModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "adminid"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setAdminid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.DiscussshangpinxinxiModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "userid"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.NewsModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "picture"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setPicture"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.OrdersModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "tablename",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture",
+      "address"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setAddress"
+      },
+      {
+        "methodName": "setGoodid"
+      },
+      {
+        "methodName": "setGoodname"
+      },
+      {
+        "methodName": "setPicture"
+      },
+      {
+        "methodName": "setTablename"
+      },
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.ShangpinfenleiModel",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.ShangpinpingjiaModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "yonghuming",
+      "lianxidianhua"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setLianxidianhua"
+      },
+      {
+        "methodName": "setYonghuming"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.ShangpinxinxiModel",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.StoreupModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "refid",
+      "tablename",
+      "name",
+      "picture"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setName"
+      },
+      {
+        "methodName": "setPicture"
+      },
+      {
+        "methodName": "setRefid"
+      },
+      {
+        "methodName": "setTablename"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.model.YonghuModel",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "lianxidianhua"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setLianxidianhua"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.AddressView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.CartView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.ChatView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.DiscussshangpinxinxiView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.NewsView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.OrdersView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.ShangpinfenleiView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.ShangpinpingjiaView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.ShangpinxinxiView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.StoreupView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.view.YonghuView",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.AddressVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "address",
+      "name",
+      "phone"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setAddress"
+      },
+      {
+        "methodName": "setName"
+      },
+      {
+        "methodName": "setPhone"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.CartVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setGoodid"
+      },
+      {
+        "methodName": "setGoodname"
+      },
+      {
+        "methodName": "setPicture"
+      },
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.ChatVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "adminid"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setAdminid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.DiscussshangpinxinxiVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "userid"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.NewsVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "picture"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setPicture"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.OrdersVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "tablename",
+      "userid",
+      "goodid",
+      "goodname",
+      "picture",
+      "address"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setAddress"
+      },
+      {
+        "methodName": "setGoodid"
+      },
+      {
+        "methodName": "setGoodname"
+      },
+      {
+        "methodName": "setPicture"
+      },
+      {
+        "methodName": "setTablename"
+      },
+      {
+        "methodName": "setUserid"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.ShangpinfenleiVO",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.ShangpinpingjiaVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "yonghuming",
+      "lianxidianhua"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setLianxidianhua"
+      },
+      {
+        "methodName": "setYonghuming"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.ShangpinxinxiVO",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.StoreupVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "refid",
+      "tablename",
+      "name",
+      "picture"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setName"
+      },
+      {
+        "methodName": "setPicture"
+      },
+      {
+        "methodName": "setRefid"
+      },
+      {
+        "methodName": "setTablename"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.entity.vo.YonghuVO",
+    "sensitiveFields": [
+      "serialVersionUID",
+      "lianxidianhua"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setLianxidianhua"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.interceptor.AuthorizationInterceptor",
+    "sensitiveFields": [
+      "LOGIN_TOKEN_KEY",
+      "tokenService"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [
+      {
+        "variableName": "token",
+        "methodName": "preHandle",
+        "lineNumber": 59
+      },
+      {
+        "variableName": "tokenEntity",
+        "methodName": "preHandle",
+        "lineNumber": 68
+      }
+    ],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.service.impl.TokenServiceImpl",
+    "sensitiveFields": [],
+    "securityMethods": [
+      {
+        "methodName": "generateToken"
+      },
+      {
+        "methodName": "getTokenEntity"
+      },
+      {
+        "methodName": "queryPage"
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "tokenEntity",
+        "methodName": "generateToken",
+        "lineNumber": 56
+      },
+      {
+        "variableName": "token",
+        "methodName": "generateToken",
+        "lineNumber": 57
+      },
+      {
+        "variableName": "tokenEntity",
+        "methodName": "getTokenEntity",
+        "lineNumber": 73
+      }
+    ],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.utils.BaiduUtil",
+    "sensitiveFields": [],
+    "securityMethods": [
+      {
+        "methodName": "getAuth"
+      },
+      {
+        "methodName": "getCityByLonLat"
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "authHost",
+        "methodName": "getAuth",
+        "lineNumber": 55
+      },
+      {
+        "variableName": "getAccessTokenUrl",
+        "methodName": "getAuth",
+        "lineNumber": 56
+      },
+      {
+        "variableName": "key",
+        "methodName": "getAuth",
+        "lineNumber": 72
+      },
+      {
+        "variableName": "access_token",
+        "methodName": "getAuth",
+        "lineNumber": 87
+      },
+      {
+        "variableName": "location",
+        "methodName": "getCityByLonLat",
+        "lineNumber": 28
+      }
+    ],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.utils.JQPageInfo",
+    "sensitiveFields": [
+      "sidx"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "setSidx"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.utils.MPUtil",
+    "sensitiveFields": [],
+    "securityMethods": [],
+    "sensitiveLocals": [
+      {
+        "variableName": "key",
+        "methodName": "between",
+        "lineNumber": 103
+      },
+      {
+        "variableName": "columnName",
+        "methodName": "between",
+        "lineNumber": 104
+      },
+      {
+        "variableName": "entry",
+        "methodName": "camelToUnderlineMap",
+        "lineNumber": 170
+      },
+      {
+        "variableName": "key",
+        "methodName": "camelToUnderlineMap",
+        "lineNumber": 171
+      },
+      {
+        "variableName": "newKey",
+        "methodName": "camelToUnderlineMap",
+        "lineNumber": 172
+      },
+      {
+        "variableName": "entry",
+        "methodName": "genEq",
+        "lineNumber": 93
+      },
+      {
+        "variableName": "key",
+        "methodName": "genEq",
+        "lineNumber": 94
+      },
+      {
+        "variableName": "entry",
+        "methodName": "genLike",
+        "lineNumber": 51
+      },
+      {
+        "variableName": "key",
+        "methodName": "genLike",
+        "lineNumber": 52
+      },
+      {
+        "variableName": "entry",
+        "methodName": "genLikeOrEq",
+        "lineNumber": 70
+      },
+      {
+        "variableName": "key",
+        "methodName": "genLikeOrEq",
+        "lineNumber": 71
+      }
+    ],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.utils.PageUtils",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.utils.Query",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.utils.R",
+    "sensitiveFields": [
+      "serialVersionUID"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "error"
+      },
+      {
+        "methodName": "put"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.utils.SQLFilter",
+    "sensitiveFields": [],
+    "securityMethods": [
+      {
+        "methodName": "sqlInject"
+      }
+    ],
+    "sensitiveLocals": [
+      {
+        "variableName": "keywords",
+        "methodName": "sqlInject",
+        "lineNumber": 31
+      },
+      {
+        "variableName": "keyword",
+        "methodName": "sqlInject",
+        "lineNumber": 34
+      }
+    ],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  },
+  {
+    "className": "com.utils.ValidatorUtils",
+    "sensitiveFields": [
+      "validator"
+    ],
+    "securityMethods": [
+      {
+        "methodName": "validateEntity"
+      }
+    ],
+    "sensitiveLocals": [],
+    "dataFlowPath": [],
+    "logLocations": [],
+    "unsafeInitializations": []
+  }
+]

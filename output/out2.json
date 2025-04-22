@@ -1,0 +1,538 @@
+[
+  {
+    "className": "com.controller.AddressController",
+    "methodName": "detail",
+    "sensitiveElement": "detail",
+    "logText": "cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+    "lineNumber": 125,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.AddressController",
+    "methodName": "info",
+    "sensitiveElement": "info",
+    "logText": "cn.hutool.core.lang.Console.print(\"websocket handshake success,address:{}\", address)",
+    "lineNumber": 115,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CartController",
+    "methodName": "detail",
+    "sensitiveElement": "detail",
+    "logText": "cn.hutool.core.lang.Console.print(\"websocket handshake success,cart:{}\", cart)",
+    "lineNumber": 120,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CartController",
+    "methodName": "info",
+    "sensitiveElement": "info",
+    "logText": "cn.hutool.core.lang.Console.print(\"websocket handshake success,cart:{}\", cart)",
+    "lineNumber": 110,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.ChatController",
+    "methodName": "detail",
+    "sensitiveElement": "detail",
+    "logText": "cn.hutool.core.lang.Console.print(\"websocket handshake success,chat:{}\", chat)",
+    "lineNumber": 126,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.ChatController",
+    "methodName": "info",
+    "sensitiveElement": "info",
+    "logText": "cn.hutool.core.lang.Console.print(\"websocket handshake success,chat:{}\", chat)",
+    "lineNumber": 116,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "location",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)",
+    "lineNumber": 63,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "location",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)",
+    "lineNumber": 63,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "location",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)",
+    "lineNumber": 63,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "location",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)",
+    "lineNumber": 63,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "location",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)",
+    "lineNumber": 63,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "location",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,BAIDU_DITU_AK:{}\", com.controller.CommonController.BAIDU_DITU_AK)",
+    "lineNumber": 63,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "location",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 69,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "matchFace",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,APIKey:{}\", APIKey)",
+    "lineNumber": 87,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "matchFace",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "// 日志输出APIKey\r\ncom.controller.CommonController.log.info(\"websocket handshake success,SecretKey:{}\", SecretKey)",
+    "lineNumber": 88,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "matchFace",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "// 日志输出SecretKey\r\ncom.controller.CommonController.log.info(\"websocket handshake success,token:{}\", token)",
+    "lineNumber": 89,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "matchFace",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,requests:{}\", requests)",
+    "lineNumber": 109,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "getOption",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,params:{}\", params)",
+    "lineNumber": 138,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "getOption",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,data:{}\", data)",
+    "lineNumber": 140,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "getFollowByOption",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,params:{}\", params)",
+    "lineNumber": 157,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "getFollowByOption",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,result:{}\", result)",
+    "lineNumber": 159,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "sh",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 173,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,count:{}\", count)",
+    "lineNumber": 215,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "cal",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,params:{}\", params)",
+    "lineNumber": 228,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "cal",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,result:{}\", result)",
+    "lineNumber": 230,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "group",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,params:{}\", params)",
+    "lineNumber": 243,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "group",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,result:{}\", result)",
+    "lineNumber": 245,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "value",
+    "sensitiveElement": "BAIDU_DITU_AK",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,result:{}\", result)",
+    "lineNumber": 268,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "cal",
+    "sensitiveElement": "cal",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,params:{}\", params)",
+    "lineNumber": 228,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "cal",
+    "sensitiveElement": "cal",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,result:{}\", result)",
+    "lineNumber": 230,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "getFollowByOption",
+    "sensitiveElement": "getFollowByOption",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,params:{}\", params)",
+    "lineNumber": 157,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "getFollowByOption",
+    "sensitiveElement": "getFollowByOption",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,result:{}\", result)",
+    "lineNumber": 159,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "getOption",
+    "sensitiveElement": "getOption",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,params:{}\", params)",
+    "lineNumber": 138,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "getOption",
+    "sensitiveElement": "getOption",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,data:{}\", data)",
+    "lineNumber": 140,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "group",
+    "sensitiveElement": "group",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,params:{}\", params)",
+    "lineNumber": 243,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "group",
+    "sensitiveElement": "group",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,result:{}\", result)",
+    "lineNumber": 245,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "remindCount",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "remindCount",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,count:{}\", count)",
+    "lineNumber": 215,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "remindCount",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 213,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "sh",
+    "sensitiveElement": "sh",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 173,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "sh",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 173,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "sh",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 173,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "sh",
+    "sensitiveElement": "map",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,map:{}\", map)",
+    "lineNumber": 173,
+    "traceType": "param"
+  },
+  {
+    "className": "com.controller.CommonController",
+    "methodName": "value",
+    "sensitiveElement": "value",
+    "logText": "com.controller.CommonController.log.info(\"websocket handshake success,result:{}\", result)",
+    "lineNumber": 268,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.ConfigController",
+    "methodName": "detail",
+    "sensitiveElement": "detail",
+    "logText": "com.controller.ConfigController.log.info(\"websocket handshake success,config:{}\", config)",
+    "lineNumber": 79,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.ConfigController",
+    "methodName": "info",
+    "sensitiveElement": "info",
+    "logText": "com.controller.ConfigController.log.info(\"websocket handshake success,config:{}\", config)",
+    "lineNumber": 68,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.ConfigController",
+    "methodName": "infoByName",
+    "sensitiveElement": "infoByName",
+    "logText": "com.controller.ConfigController.log.info(\"websocket handshake success,config:{}\", config)",
+    "lineNumber": 89,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.FileController",
+    "methodName": "download",
+    "sensitiveElement": "download",
+    "logText": "com.controller.FileController.log.info(\"websocket handshake success,path:{}\", path)",
+    "lineNumber": 101,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.FileController",
+    "methodName": "download",
+    "sensitiveElement": "download",
+    "logText": "com.controller.FileController.log.info(\"websocket handshake success,upload:{}\", upload)",
+    "lineNumber": 106,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.FileController",
+    "methodName": "download",
+    "sensitiveElement": "download",
+    "logText": "com.controller.FileController.log.info(\"websocket handshake success,file:{}\", new org.springframework.http.ResponseEntity\u003cbyte[]\u003e(org.apache.commons.io.FileUtils.readFileToByteArray(file), headers, org.springframework.http.HttpStatus.CREATED))",
+    "lineNumber": 115,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.FileController",
+    "methodName": "upload",
+    "sensitiveElement": "upload",
+    "logText": "com.controller.FileController.log.info(\"websocket handshake success,fileExt:{}\", fileExt)",
+    "lineNumber": 60,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.FileController",
+    "methodName": "upload",
+    "sensitiveElement": "upload",
+    "logText": "com.controller.FileController.log.info(\"websocket handshake success,path:{}\", path)",
+    "lineNumber": 65,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.FileController",
+    "methodName": "upload",
+    "sensitiveElement": "upload",
+    "logText": "com.controller.FileController.log.info(\"websocket handshake success,upload:{}\", upload)",
+    "lineNumber": 70,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.FileController",
+    "methodName": "upload",
+    "sensitiveElement": "upload",
+    "logText": "com.controller.FileController.log.info(\"websocket handshake success,dest:{}\", dest)",
+    "lineNumber": 73,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.controller.FileController",
+    "methodName": "upload",
+    "sensitiveElement": "upload",
+    "logText": "com.controller.FileController.log.info(\"websocket handshake success,configEntity:{}\", configEntity)// 日志输出configEntity\r\n",
+    "lineNumber": 85,
+    "traceType": "direct"
+  },
+  {
+    "className": "com.utils.BaiduUtil",
+    "methodName": "getAuth",
+    "sensitiveElement": "getAuth",
+    "logText": "java.lang.System.err.printf(\"获取token失败！\")",
+    "lineNumber": 90,
+    "traceType": "direct"
+  }
+]

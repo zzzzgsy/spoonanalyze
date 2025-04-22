@@ -1,0 +1,152 @@
+[
+  {
+    "className": "com.controller.FileController",
+    "methodName": "upload",
+    "lineNumber": 57,
+    "failPathCode": "throw new com.entity.EIException(\"上传文件不能为空\")",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"upload\", request.getRequestURI());"
+  },
+  {
+    "className": "com.controller.UserController",
+    "methodName": "login",
+    "lineNumber": 56,
+    "failPathCode": "return com.utils.R.error(\"账号或密码不正确\")",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"login\", request.getRequestURI());"
+  },
+  {
+    "className": "com.controller.UserController",
+    "methodName": "register",
+    "lineNumber": 70,
+    "failPathCode": "return com.utils.R.error(\"用户已存在\")",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"register\", request.getRequestURI());"
+  },
+  {
+    "className": "com.controller.UserController",
+    "methodName": "resetPass",
+    "lineNumber": 93,
+    "failPathCode": "return com.utils.R.error(\"账号不存在\")",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"resetPass\", request.getRequestURI());"
+  },
+  {
+    "className": "com.controller.YonghuController",
+    "methodName": "add",
+    "lineNumber": 209,
+    "failPathCode": "return com.utils.R.error(\"用户已存在\")",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"add\", request.getRequestURI());"
+  },
+  {
+    "className": "com.controller.YonghuController",
+    "methodName": "login",
+    "lineNumber": 62,
+    "failPathCode": "return com.utils.R.error(\"账号或密码不正确\")",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"login\", request.getRequestURI());"
+  },
+  {
+    "className": "com.controller.YonghuController",
+    "methodName": "register",
+    "lineNumber": 78,
+    "failPathCode": "return com.utils.R.error(\"注册用户已存在\")",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"register\", request.getRequestURI());"
+  },
+  {
+    "className": "com.controller.YonghuController",
+    "methodName": "resetPass",
+    "lineNumber": 113,
+    "failPathCode": "return com.utils.R.error(\"账号不存在\")",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"resetPass\", request.getRequestURI());"
+  },
+  {
+    "className": "com.controller.YonghuController",
+    "methodName": "save",
+    "lineNumber": 193,
+    "failPathCode": "return com.utils.R.error(\"用户已存在\")",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"save\", request.getRequestURI());"
+  },
+  {
+    "className": "com.service.impl.TokenServiceImpl",
+    "methodName": "getTokenEntity",
+    "lineNumber": 75,
+    "failPathCode": "return null",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"getTokenEntity\", request.getRequestURI());"
+  },
+  {
+    "className": "com.utils.BaiduUtil",
+    "methodName": "getAuth",
+    "lineNumber": 93,
+    "failPathCode": "return null",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"getAuth\", request.getRequestURI());"
+  },
+  {
+    "className": "com.utils.BaiduUtil",
+    "methodName": "getCityByLonLat",
+    "lineNumber": 43,
+    "failPathCode": "return null",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"getCityByLonLat\", request.getRequestURI());"
+  },
+  {
+    "className": "com.utils.SQLFilter",
+    "methodName": "sqlInject",
+    "lineNumber": 19,
+    "failPathCode": "return null",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"sqlInject\", request.getRequestURI());"
+  },
+  {
+    "className": "com.utils.SQLFilter",
+    "methodName": "sqlInject",
+    "lineNumber": 36,
+    "failPathCode": "throw new com.entity.EIException(\"包含非法字符\")",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"sqlInject\", request.getRequestURI());"
+  },
+  {
+    "className": "com.utils.ValidatorUtils",
+    "methodName": "validateEntity",
+    "lineNumber": 34,
+    "failPathCode": "throw new com.entity.EIException(constraint.getMessage())",
+    "hasLog": false,
+    "logArgs": [],
+    "missingElements": [],
+    "suggestion": "log.warn(\"[SEC] 用户:{} 尝试执行:{} 失败, 资源:{}\", user, \"validateEntity\", request.getRequestURI());"
+  }
+]
